@@ -1,0 +1,18 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="AppConnect" audience="service" href="/docs/services/AppConnect/appconnect.html"}
+IBM App Connect in Bluemix
+
+    {: .navgroup id="learn"}
+    appconnect.md
+    concepts.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    gettingStarted.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    troubleshooting.md
+    {: .navgroup-end}
