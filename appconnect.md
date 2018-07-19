@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-09-08"
+lastupdated: "2018-07-19"
 
 ---
 
@@ -28,7 +28,7 @@ There are two types of resource that you can run in {{site.data.keyword.appconse
 
 ![An image that shows an integration server tile from the {{site.data.keyword.appconserviceshort}} dashboard](images/IntegrationServerCarousel.jpg)
 
-If you choose the {{site.data.keyword.appconserviceshort}} Enterprise (beta) plan, you can run your IBM Integration Bus solutions in {{site.data.keyword.appconserviceshort}}.  You upload an integration solution in a BAR file, then run it in an  integration server in {{site.data.keyword.appconserviceshort}}.
+To run your IBM Integration Bus or App Connect Enterprise solutions in {{site.data.keyword.appconserviceshort}}, you upload an integration solution in a BAR file, then run it in an integration server in {{site.data.keyword.appconserviceshort}}.
 
 ![An image that shows a flow tile from the {{site.data.keyword.appconserviceshort}} dashboard](images/FlowsResizedNew.jpg)
 
