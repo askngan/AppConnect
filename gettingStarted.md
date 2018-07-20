@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-11-24"
+lastupdated: "2018-07-20"
 
 ---
 
@@ -43,15 +43,15 @@ As the name suggests, an event-driven flow consists of an event in a source appl
     * Add retrieve actions to your flow to retrieve items that match certain criteria, retrieve a specified number of records, define error handling, or define how you handle the items that are retrieved (see [Using App Connect to retrieve items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/)).
     * Add some conditional logic to perform different actions depending on the data that's received from applications in your flow (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/adding-conditional-logic-flow/)).
 
-1. When you've configured your flow, click **Exit and switch on**.
+1. When you've configured your flow, open the options menu on the header bar and click **Start flow**.
 
-You can now see your flow running on the {{site.data.keyword.appconserviceshort}} dashboard.  When an event happens in the first application, an action is triggered automatically by {{site.data.keyword.appconserviceshort}} in your second application. You can view the status of your flows on the {{site.data.keyword.appconserviceshort}} dashboard.  To view logs for your flows, open the hamburger menu ![Hamburger menu icon](/images/HamburgerMenuSm.jpg), expand **Manage**, then click **Logs**.
+If you return to the {{site.data.keyword.appconserviceshort}} dashboard, you can see your flow running.  When an event happens in the first application, an action is triggered automatically by {{site.data.keyword.appconserviceshort}} in your second application. You can view the status of your flows on the {{site.data.keyword.appconserviceshort}} dashboard.  To view logs for your flows, open the hamburger menu ![Hamburger menu icon](/images/HamburgerMenuSm.jpg), expand **Manage**, then click **Logs**.
 
 For more detailed information about creating event-driven flows, including some examples, see [Creating an event-driven flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-event-driven-flow/).
 
 ## Creating a flow for an API
 
-If you want a developer to be able to create an app that makes use of the data in your cloud-based applications, you can provide an API. To create flows for an API, complete the following steps.
+If you want a developer to be able to create an application that makes use of the data in your cloud-based applications, you can provide an API. To create flows for an API, complete the following steps.
 1. On the {{site.data.keyword.appconserviceshort}} dashboard, click **New** > **Flows for an API**.
 1. Enter a name for your API.
 1. Enter a name for your model that reflects the type of object that your API will work with, then click **Create model**.
@@ -74,9 +74,9 @@ To find out how to test your API, see [Exposing an App Connect flow through API 
 
 ## Running an IBM Integration Bus integration solution (Enterprise beta)
 
-If you want to deploy integration solutions that you’ve developed in IBM Integration Bus to the cloud, without the need to acquire and maintain an IT infrastructure, you can import an Integration Bus BAR file that contains all the artifacts that make up your integration solution, then run the contents in an integration server in App Connect. To upload a BAR file to App Connect, you must have chosen the {{site.data.keyword.appconservicefull}} Enterprise plan. You must also have IBM Integration Bus version 10.0.0.4 or later installed on premises.
+If you want to deploy integration solutions that you’ve developed in IBM Integration Bus or App Connect Enterprise to the cloud, without the need to acquire and maintain an IT infrastructure, you can import a BAR file that contains all the artifacts that make up your integration solution, then run the contents in an integration server in App Connect. To upload a BAR file to App Connect, you must have IBM Integration Bus version 10.0.0.4 or later, or App Connect Enterprise, installed on premises.
 
-To run your Integration Bus solutions in App Connect, complete the following steps.
+To run your Integration Bus or App Connect Enterprise solutions in App Connect, complete the following steps.
 1. On the {{site.data.keyword.appconserviceshort}} dashboard, click **New** > **Import a BAR file**.
 1. Select the BAR file that you want to import, edit the name if you want to, then click **Import**. 
     If you see an authentication error, check that your BAR file is valid (see [What makes a BAR file valid in App Connect? ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/running-your-ibm-integration-bus-solutions-in-ibm-app-connect-enterprise-beta-plan/what-makes-a-bar-file-valid-for-app-connect-app-connect-enterprise-beta)).
