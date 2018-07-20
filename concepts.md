@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-11-24"
+lastupdated: "2018-07-20"
 
 ---
 
@@ -50,7 +50,7 @@ For more information, see [Creating flows for an API ![External link icon](../..
 
 As well as adding applications to your flows, you can also add nodes from the **Logic** tab that allow you to configure how you process data. For example, use the If node to add some conditional processing - performing different actions according to the data that you receive (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/adding-conditional-logic-flow/)). And use the For each node when you want to perform an action for each record that's returned by a retrieve action (see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/)).
 
-If you're an IBM Integration Bus developer, you can also create complex integration solutions by developing message flows in the Integration Toolkit and packaging them into BAR files.
+If you're an IBM Integration Bus or App Connect Enterprise developer, you can also create complex integration solutions by developing message flows in the Integration Toolkit and packaging them into BAR files.
 
 Your flows and integration servers are represented by tiles on the App Connect dashboard. The tiles show summary information about the flow, API, or integration server, such as whether a flow is running or stopped, and if it's run successfully, or produced an error. You can click the tick and exclamation point icons to see when the flow last ran successfully, or what errors were raised. Click the three dots ![Icon of 3 vertical dots opens a menu to start, stop, edit, or delete the flow](images/Menu.jpg) to open a menu that allows you to start, stop, edit, or delete your resources. Flows have to be stopped before you can edit them.
 
@@ -65,7 +65,7 @@ When creating event-driven flows or flows for APIs, _applications_ are the cloud
 
 You don't have to connect to your applications on the Applications page; you can also connect in the flow editor as you add the applications to your flow. Many applications require just a user name and password, but some need more information. You can find out how to find this information in the [How-to guides for apps ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/how-to-guides-for-apps/).
 
-If you're using the {{site.data.keyword.appconservicefull}} Enterprise plan to run Integration Bus solutions in the cloud, an _application_ is the container that holds your message flows, libraries, and other resources that are required by your solution. 
+If you're using {{site.data.keyword.appconservicefull}} to run Integration Bus or App Connect Enterprise solutions in the cloud, an _application_ is the container that holds your message flows, libraries, and other resources that are required by your solution. 
 
 ## Actions
 {: #actions}
@@ -147,4 +147,4 @@ The **Apply a function** icon ![Apply a function icon](Functions.jpg) shows you 
 ## BAR files and integration servers
 {: #barfiles}
 
-A BAR file is a compressed file to which you add deployable resources in IBM Integration Bus.  When you develop an integration solution in Integration Bus, you package your message flows and all the resources that those message flows use in a BAR file, then deploy the BAR file to an integration server.  That server can be on premises or in {{site.data.keyword.appconserviceshort}}.  If you choose the {{site.data.keyword.appconservicefull}} Enterprise plan, you can run your Integration Bus solutions in App Connect, without the need to acquire and maintain an IT infrastructure.  When you upload a BAR file to App Connect, an integration server is created to run the contents of the BAR file.  You can configure basic authentication and secure connectivity between your cloud-based and on-premises resources (see [Running your Integration Bus solutions in App Connect ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/running-your-ibm-integration-bus-solutions-in-ibm-app-connect-enterprise-beta-plan)).  
+A BAR file is a compressed file to which you add deployable resources in IBM Integration Bus or App Connect Enterprise.  When you develop an integration solution in Integration Bus or App Connect Enterprise, you package your message flows and all the resources that those message flows use in a BAR file, then deploy the BAR file to an integration server.  That server can be on premises or in {{site.data.keyword.appconserviceshort}}.  You can run your Integration Bus or App Connect Enterprise solutions in App Connect, without the need to acquire and maintain an IT infrastructure.  When you upload a BAR file to App Connect, an integration server is created to run the contents of the BAR file.  You can configure basic authentication and secure connectivity between your cloud-based and on-premises resources (see [Running your Integration Bus solutions in App Connect ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/running-your-ibm-integration-bus-solutions-in-ibm-app-connect-enterprise-beta-plan)).  
