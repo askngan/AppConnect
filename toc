@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="AppConnect" audience="service" arm="2892613" href="/docs/services/AppConnect/appconnect.html"}
+{: .toc subcollection="AppConnect" audience="service" arm="2892613" href="/docs/services/AppConnect/appconnect.html" path="services/AppConnect"}
 IBM App Connect in IBM Cloud
 
     {: .navgroup id="learn"}
