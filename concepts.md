@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-07-20"
+lastupdated: "2019-02-06"
 
 ---
 
@@ -70,7 +70,7 @@ If you're using {{site.data.keyword.appconservicefull}} to run Integration Bus o
 ## Actions
 {: #actions}
 
-You can add several types of action to your flows. Common actions are create, retrieve, and update or create, but some applications have specific actions. For example, the Equals 3 Lucy application has an action called "Ask Lucy", and the Watson Personality Insights application has an action called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconserviceshort}} by typing the action type in the search field at the top of the Applications page:
+You can add several types of action to your flows. Common actions are create, retrieve, and update or create, but some applications have specific actions. For example, the Watson Personality Insights application has an action called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconserviceshort}} by typing the action type in the search field at the top of the Applications page:
 
 ![Screenshot showing supported retrieve actions for applications](images/RetrieveApps2.jpg)
 
@@ -93,7 +93,7 @@ The status codes that you’re likely to see in response to an update or create 
 -   200: A record was updated
 -   201: A record was created
 
-You can use these response codes later in your flow. Maybe you want to take different actions depending on whether a record was updated or created. For an example of defining actions based on response codes, see the tutorial [Creating an event-driven flow that updates or creates a contact in Salesforce and updates Asana whenever you receive a form in Wufoo](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-event-driven-flow-updates-creates-contact-salesforce-updates-asana-whenever-receive-form-wufoo/).
+You can use these response codes later in your flow. Maybe you want to take different actions depending on whether a record was updated or created. For an example of defining actions based on response codes, see the tutorial [Creating an event-driven flow that updates or creates a contact in Salesforce and updates Asana whenever you receive a form in Wufoo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-event-driven-flow-updates-creates-contact-salesforce-updates-asana-whenever-receive-form-wufoo/).
 
 **Retrieve**
 
@@ -112,7 +112,7 @@ You can also decide what action to take based on the status code that you get in
 -   200: All records in the application match the condition
 -   206: The specified maximum number of records were retrieved, but more matching records exist in the application
 
-For more information, see [Retrieving items from your applications](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/).
+For more information, see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/).
 
 ## Data mapping
 {: #transforms}
@@ -141,7 +141,7 @@ Here's another example of mapping response codes in a different way. This time, 
 
 ![Screenshot showing response codes being used in an If node](images/IfSC.jpg)
 
-The **Apply a function** icon ![Apply a function icon](Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to upper or lower case, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata, a lightweight query and transformation language. For more information, see [http://jsonata.org](http://jsonata.org).
+The **Apply a function** icon ![Apply a function icon](Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to upper or lower case, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata, a lightweight query and transformation language. For more information, see [http://jsonata.org ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://jsonata.org).
 
 
 ## BAR files and integration servers
