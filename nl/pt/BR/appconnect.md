@@ -22,6 +22,17 @@ lastupdated: "2019-02-20"
 O {{site.data.keyword.appconservicefull}} é uma ferramenta aliada dos negócios que pode ser usada para
 integrar os aplicativos baseados em nuvem ou no local para automatizar as tarefas entediantes e repetitivas.
 
+O {{site.data.keyword.appconserviceshort}} conecta seus aplicativos em minutos, automatizando atualizações,
+notificações e eventos e mantendo seus dados em sincronização entre múltiplos aplicativos. É possível usá-lo para
+conectar aplicativos na nuvem ou locais (no local).  
+
+Há dois tipos de recursos que podem ser executados no {{site.data.keyword.appconserviceshort}} para conectar
+seus aplicativos, dependendo de suas necessidades de negócios: servidores e fluxos de integração.  Para executar as soluções do IBM Integration Bus ou do App Connect Enterprise no {{site.data.keyword.appconserviceshort}}, faça upload de uma solução de integração em um arquivo BAR e, em seguida, execute-o em um servidor de integração no {{site.data.keyword.appconserviceshort}}.  Crie fluxos no {{site.data.keyword.appconserviceshort}} para conectar seus aplicativos para que algo
+que aconteça em um aplicativo faça com que outra coisa aconteça em outro aplicativo. É possível criar fluxos acionados por evento e fluxos para APIs.
+
+É possível usar o painel do {{site.data.keyword.appconserviceshort}} para monitorar os fluxos e os servidores
+de integração para ver quanto trabalho eles estão fazendo. Inicie-os, pare-os e mude-os quando precisar.
+
 Aqui vamos explicar os recursos e a terminologia do {{site.data.keyword.appconserviceshort}}:
 
 -   [Fluxos](#flows)
