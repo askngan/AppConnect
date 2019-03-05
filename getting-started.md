@@ -16,7 +16,7 @@ lastupdated: "2019-02-06"
 {:download: .download}
 
 
-# Getting started with IBM App Connect
+# Getting started tutorial
 {: #gettingStarted}
 
 {{site.data.keyword.appconservicefull}} helps you to connect your applications: from simple trigger-action interactions to complex integrations.  You can use {{site.data.keyword.appconserviceshort}} to create event-driven flows or flows for APIs.  Or you can upload and run the integration solutions that you create in IBM Integration Bus, without the need to acquire and maintain an IT infrastructure.  You can see and administer all your integrations - integration servers, event-driven flows, and flows for APIs - in one place on the {{site.data.keyword.appconserviceshort}} dashboard. 
