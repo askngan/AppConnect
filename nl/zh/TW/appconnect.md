@@ -21,6 +21,12 @@ lastupdated: "2019-02-20"
 
 {{site.data.keyword.appconservicefull}} 是一種可讓企業輕鬆使用的工具，可用來整合雲端型或內部部署應用程式以自動執行繁瑣且重複的作業。
 
+{{site.data.keyword.appconserviceshort}} 能快速連接您的應用程式 - 自動化更新、通知和事件，並保持多個應用程式之間的資料同步。您可以使用它來連接雲端中的應用程式或本端（內部部署）應用程式。  
+
+視您的商業需要而定，有兩種類型的資源可在 {{site.data.keyword.appconserviceshort}} 中執行以連接應用程式：整合伺服器及流程。  若要在 {{site.data.keyword.appconserviceshort}} 中執行 IBM Integration Bus 或 App Connect Enterprise 解決方案，可以使用 BAR 檔案上傳整合解決方案，然後在 {{site.data.keyword.appconserviceshort}} 的整合伺服器中執行它。 您可以在 {{site.data.keyword.appconserviceshort}} 中建立流程來連接應用程式，以便在某個應用程式中發生的事，會導致在另一個應用程式中發生其他事。您可以建立事件驅動流程及 API 的流程。
+
+您可以使用 {{site.data.keyword.appconserviceshort}} 儀表板來監視流程及整合伺服器，以查看它們為您執行多少工作。啟動並停止它們，並視需要進行變更。
+
 在這裡，我們將說明 {{site.data.keyword.appconserviceshort}} 的特性及術語：
 
 -   [流程](#flows)
