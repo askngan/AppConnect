@@ -21,6 +21,12 @@ lastupdated: "2019-02-20"
 
 {{site.data.keyword.appconservicefull}} es una herramienta adecuada para los negocios que puede utilizarse para integrar aplicaciones basadas en la nube o locales para automatizar tareas tediosas y repetitivas.
 
+{{site.data.keyword.appconserviceshort}} conecta las aplicaciones en minutos, automatiza las actualizaciones, notificaciones y sucesos, y mantiene sincronizados los datos entre varias aplicaciones. Puede utilizarlo para conectar aplicaciones en la nube y locales.  
+
+Existen dos tipos de recursos que se pueden ejecutar en {{site.data.keyword.appconserviceshort}} para conectar las apps, en función de las necesidades de su empresa: los servidores de integración y los flujos.  Para ejecutar las soluciones de IBM Integration Bus o App Connect Enterprise en {{site.data.keyword.appconserviceshort}}, se carga una solución de integración en un archivo BAR y, a continuación, se ejecuta en un servidor de integración en {{site.data.keyword.appconserviceshort}}.  Puede crear flujos en {{site.data.keyword.appconserviceshort}} para conectar las aplicaciones de modo que algo que ocurre en una aplicación haga que suceda algo más en otra aplicación. Puede crear flujos controlados por sucesos y flujos para las API.
+
+Puede utilizar el panel de instrumentos de {{site.data.keyword.appconserviceshort}} para supervisar los flujos y los servidores de integración para ver el trabajo que están realizando para usted. Inícielos, deténgalos y modifíquelos cuando lo necesite.
+
 Aquí explicaremos las características y la terminología de {{site.data.keyword.appconserviceshort}}:
 
 -   [Flujos](#flows)
