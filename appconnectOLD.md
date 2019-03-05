@@ -24,9 +24,9 @@ lastupdated: "2019-02-06"
 
 {{site.data.keyword.appconserviceshort}} connects your applications in minutes - automating updates, notifications, and events, and keeping your data in sync between multiple applications. You can use it to connect applications in the cloud or local (on-premises) applications.  
 
-There are two types of resource that you can run in {{site.data.keyword.appconserviceshort}} to connect your apps, depending on your business needs: integration servers and flows.  
+Two types of resource can run in {{site.data.keyword.appconserviceshort}} to connect your apps, depending on your business needs: integration servers and flows.  
 
-To run your IBM Integration Bus or App Connect Enterprise solutions in {{site.data.keyword.appconserviceshort}}, you upload an integration solution in a BAR file, then run it in an integration server in {{site.data.keyword.appconserviceshort}}.
+To run your IBM Integration Bus or App Connect Enterprise solutions, you upload an integration solution in a BAR file, then run it in an integration server in {{site.data.keyword.appconserviceshort}}.
 
 ![An image that shows an integration server tile on the {{site.data.keyword.appconserviceshort}} dashboard](images/CarouseliServer.jpg)
 
@@ -36,12 +36,12 @@ You create flows in {{site.data.keyword.appconserviceshort}} to connect your app
 
 You can create event-driven flows and flows for APIs.
 
-As the name suggests, you start to build your event-driven flow by choosing an event. The event is the trigger in your first application that makes your flow start working.  Then you choose an action. The action is the task that you want your flow to complete in another application. 
+As the name suggests, you start to build your event-driven flow by choosing an event. The event is the trigger in your first application that makes your flow start working.  Then, you choose an action. The action is the task that you want your flow to complete in another application. 
 
-![An image that represents a event-driven flow in {{site.data.keyword.appconserviceshort}}](images/CarouselEventFlow.jpg)
+![An image that represents an event-driven flow in {{site.data.keyword.appconserviceshort}}](images/CarouselEventFlow.jpg)
 
 You can use the {{site.data.keyword.appconserviceshort}} dashboard to monitor your flows and integration servers to see how much work they're doing for you. Start and stop them, and change them when you need to.
 
-That's all there is to it. Start connecting your applications, and let {{site.data.keyword.appconserviceshort}} work for you.
+That's all there is to it. Connect your applications, and let {{site.data.keyword.appconserviceshort}} work for you.
 
 ![An image that represents the array of applications that you can connect in {{site.data.keyword.appconserviceshort}}](images/CarouselThatsIt.jpg)
