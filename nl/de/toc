@@ -5,7 +5,7 @@
 IBM App Connect in IBM Cloud
 
     {: .navgroup id="learn"}
-    gettingStarted.md
+    getting-started.md
     concepts.md
     {: .navgroup-end}
 
