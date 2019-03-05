@@ -21,6 +21,12 @@ lastupdated: "2019-02-20"
 
 {{site.data.keyword.appconservicefull}}는 비즈니스 친화적인 도구로, 지루하고 반복적인 태스크를 자동화하도록 클라우드 기반 또는 온프레미스 애플리케이션을 통합하는 데 사용할 수 있습니다.
 
+{{site.data.keyword.appconserviceshort}}는 애플리케이션에 빠르게 연결하며 업데이트, 알림 및 이벤트를 자동화하고 여러 애플리케이션 간에 데이터 동기화를 유지합니다. 클라우드 또는 로컬(온프레미스) 애플리케이션에서 이를 사용하여 애플리케이션에 연결할 수 있습니다.   
+
+앱에 연결하기 위해 {{site.data.keyword.appconserviceshort}}에서 실행할 수 있는 두 가지 유형의 리소스 즉, 통합 서버 및 플로우(비즈니스 요구사항에 따라 달라짐)가 있습니다.   {{site.data.keyword.appconserviceshort}}에서 IBM Integration Bus 또는 App Connect Enterprise 솔루션을 실행하려면 BAR 파일로 통합 솔루션을 업로드한 후 {{site.data.keyword.appconserviceshort}}의 통합 서버에서 통합 솔루션을 실행해야 합니다.  하나의 애플리케이션에서 어떠한 사항이 발생하면 다른 애플리케이션에서 또 다른 사항이 발생하도록 {{site.data.keyword.appconserviceshort}}에서 플로우를 작성하여 애플리케이션에 연결합니다. 이벤트 중심 플로우 및 API용 플로우를 작성할 수 있습니다. 
+
+얼마나 많은 작업이 사용자를 위해 수행되는지 확인하기 위해 {{site.data.keyword.appconserviceshort}} 대시보드를 사용하여 플로우 및 통합 서버를 모니터할 수 있습니다. 필요 시 플로우 및 통합 서버를 시작 및 중지하고 변경하십시
+
 다음은 {{site.data.keyword.appconserviceshort}}의 기능 및 용어입니다. 
 
 -   [플로우](#flows)
