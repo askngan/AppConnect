@@ -21,6 +21,12 @@ lastupdated: "2019-02-20"
 
 {{site.data.keyword.appconservicefull}} は、クラウド・ベースのアプリケーションやオンプレミス・アプリケーションを統合して退屈な繰り返し作業を自動化するために使用できるビジネス・フレンドリーなツールです。
 
+{{site.data.keyword.appconserviceshort}} は、アプリケーションを数分で接続して、更新、通知、イベントを自動化し、複数のアプリケーション間でデータを同期させておきます。これを使用して、クラウド内アプリケーションまたはローカル (オンプレミス) アプリケーションを接続できます。  
+
+アプリを接続するために {{site.data.keyword.appconserviceshort}} で実行できるリソースには、ビジネス・ニーズによって統合サーバーとフローの 2 つのタイプがあります。  {{site.data.keyword.appconserviceshort}} で IBM Integration Bus または App Connect Enterprise ソリューションを実行するには、BAR ファイル内の統合ソリューションをアップロードした後、{{site.data.keyword.appconserviceshort}} 内の統合サーバーで実行します。 アプリケーションを接続するためのフローを {{site.data.keyword.appconserviceshort}} で作成することにより、あるアプリケーションであることが発生すると別のアプリケーションでほかのことが発生するようにすることができます。 イベント・ドリブン・フローと API 用のフローを作成できます。
+
+{{site.data.keyword.appconserviceshort}} ダッシュボードを使用することにより、フローと統合サーバーをモニターしてどの程度有効に機能しているかを調べることができます。それらを開始、停止し、必要なときは変更します。
+
 ここでは、{{site.data.keyword.appconserviceshort}} の以下の機能と用語について説明します。
 
 -   [フロー](#flows)
