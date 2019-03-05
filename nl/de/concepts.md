@@ -21,6 +21,12 @@ lastupdated: "2019-02-20"
 
 {{site.data.keyword.appconservicefull}} ist ein geschäftsfreundliches Tool, mit dem Sie Ihre Cloud-basierten oder lokalen Anwendungen integrieren können, um langwierige und sich wiederholende Aufgaben zu automatisieren.
 
+{{site.data.keyword.appconserviceshort}} verbindet Ihre Anwendungen in Minutenschnelle und automatisiert dabei Aktualisierungen, Benachrichtigungen und Ereignisse und hält so Ihre Daten zwischen mehreren Anwendungen synchron. Sie können das Produkt verwenden, um Anwendungen in der Cloud oder Vor-Ort (lokale Anwendungen) zu verbinden.   
+
+Es gibt zwei Typen von Ressourcen, die Sie in {{site.data.keyword.appconserviceshort}} ausführen können, um Ihre Apps zu verbinden. Dies hängt von Ihren Geschäftsanforderungen bezüglich Integrationsservern und Abläufen ab.  Wenn Sie Ihre IBM Integration Bus- oder App Connect Enterprise-Lösungen in {{site.data.keyword.appconserviceshort}} ausführen möchten, laden Sie eine Integrationslösung in eine BAR-Datei hoch, und führen Sie sie dann in einem Integrationsserver in {{site.data.keyword.appconserviceshort}} aus.  Sie erstellen Abläufe in {{site.data.keyword.appconserviceshort}}, um Ihre Anwendungen so zu verbinden, dass ein Ereignis in einer Anwendung ebenfalls in einer anderen Anwendung erfolgt.  Sie können ereignisgesteuerte Abläufe und Abläufe für APIs erstellen. 
+
+Sie können das {{site.data.keyword.appconserviceshort}}-Dashboard verwenden, um Ihre Abläufe und Integrationsserver zu überwachen und so den Umfang der für Sie erledigten Arbeit festzustellen. Sie können die Server starten oder stoppen und bei Bedarf Änderungen vornehmen. 
+
 Im Folgenden werden die Funktionen und die Terminologie von {{site.data.keyword.appconserviceshort}} erläutert:
 
 -   [Abläufe](#flows)
