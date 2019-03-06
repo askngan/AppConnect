@@ -60,7 +60,7 @@ If you're an IBM Integration Bus or App Connect Enterprise developer, you can al
 
 Your flows and integration servers are represented by tiles on the App Connect dashboard. The tiles show summary information about the flow, API, or integration server, such as whether a flow is running or stopped, and if it's run successfully, or produced an error. You can click the tick and exclamation point icons to see when the flow last ran successfully, or what errors were raised. Click the three dots ![Icon of three vertical dots opens a menu to start, stop, edit, or delete the flow](images/Menu.jpg) to open a menu to start, stop, edit, or delete your resources. Flows have to be stopped before you can edit them.
 
-![Screen capture showing tiles from the dashboard for event-driven flows, flows for APIs, and integration servers](images/Dashboard.jpg)
+![Screen capture that shows tiles from the dashboard for event-driven flows, flows for APIs, and integration servers](images/Dashboard.jpg)
 
 ## Applications
 {: #apps}
@@ -78,7 +78,7 @@ If you're using {{site.data.keyword.appconservicefull}} to run Integration Bus o
 
 You can add several types of action to your flows. Common actions are create, retrieve, and update or create, but some applications have specific actions. For example, the Watson Personality Insights application has an action that's called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconserviceshort}} by typing the action type in the search field on the Applications page:
 
-![Screen capture showing supported retrieve actions for applications](images/RetrieveApps2.jpg)
+![Screen capture that shows supported retrieve actions for applications](images/RetrieveApps2.jpg)
 
 **Create**
 
@@ -127,15 +127,15 @@ After you create a flow, add your applications, and select appropriate actions, 
 
 Some fields are mandatory, and they're marked with an asterisk. For example, when you're creating a lead in Salesforce, you must specify a last name:
 
-![Screen capture showing that the Last name field is mandatory](images/LastName.jpg)
+![Screen capture that shows that the Last name field is mandatory](images/LastName.jpg)
 
 When you click in one of these fields, you see a couple of icons: **Insert reference**![Insert reference icon](images/InsertRef.jpg) and **Apply a Function**![Apply a function icon](images/Functions.jpg). If you click **Insert reference**, you can see the available data that you can put in that field from preceding applications in the flow. The following example shows that we can choose fields from the Wufoo source application, or from a previous Salesforce action in the flow. We can also use the status code from the Salesforce update or create action.
 
-![Screen capture showing available inputs for a data mapping](images/Inputs.jpg)
+![Screen capture that shows available inputs for a data mapping](images/Inputs.jpg)
 
-In the following example, our flow is triggered by a new completed form being received in Wufoo. We want to create a contact in Salesforce for the person who's submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the last name of the Salesforce contact, we select the last name of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
+In the following example, our flow is triggered when a new completed form is received in Wufoo. We want to create a contact in Salesforce for the person who's submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the last name of the Salesforce contact, we select the last name of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
 
-![Screen capture showing that the Wufoo Last name field is mapped to the Salesforce Last name field](images/Mapping.jpg)
+![Screen capture that shows that the Wufoo Last name field is mapped to the Salesforce Last name field](images/Mapping.jpg)
 
 In the following example, we add a Slack "Create message" action to the flow after a Salesforce "Update or create contact" action. We want to put a message on Slack to say what response code is received for the Salesforce action:
 
@@ -145,7 +145,7 @@ You can see that in the **Text** field for the Slack "Create message" action, we
 
 Here's another example of mapping response codes in a different way. This time, we add an "If" node after a Salesforce "Update or create contact" action because we want to perform different actions that depend on whether an existing Salesforce contact is updated, or a new contact is created. In this case, a response code of "200" means that the contact is updated. So this branch of the "If" node contains an action that's specific to an updated record.
 
-![Screen capture showing response codes being used in an If node](images/IfSC.jpg)
+![Screen capture that shows how response codes are used in an If node](images/IfSC.jpg)
 
 The **Apply a function** icon ![Apply a function icon](Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to upper or lower case, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata, a lightweight query and transformation language. For more information, see [http://jsonata.org ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://jsonata.org).
 
