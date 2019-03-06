@@ -123,7 +123,7 @@ For more information, see [Retrieving items from your applications ![External li
 ## Data mapping
 {: #transforms}
 
-When you've created a flow, added your applications, and selected appropriate actions, you need to specify what information you want to transfer between your applications. You can see in the flow editor that when you add an action to your flow, you see a list of available fields for that application.  You can populate these fields with data from your source application, or previous actions in the flow.
+After you create a flow, add your applications, and select appropriate actions, you need to specify what information you want to transfer between your applications. You can see in the flow editor that when you add an action to your flow, you see a list of available fields for that application.  You can populate these fields with data from your source application, or previous actions in the flow.
 
 Some fields are mandatory, and they're marked with an asterisk. For example, when you're creating a lead in Salesforce, you must specify a last name:
 
@@ -133,17 +133,17 @@ When you click in one of these fields, you see a couple of icons: **Insert refer
 
 ![Screen capture showing available inputs for a data mapping](images/Inputs.jpg)
 
-In the following example, our flow is triggered by a new completed form being received in Wufoo. We want to create a contact in Salesforce for the person who's submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the last name of the Salesforce contact, we've selected the last name of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
+In the following example, our flow is triggered by a new completed form being received in Wufoo. We want to create a contact in Salesforce for the person who's submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the last name of the Salesforce contact, we select the last name of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
 
 ![Screen capture showing that the Wufoo Last name field is mapped to the Salesforce Last name field](images/Mapping.jpg)
 
-In the following example, we've added a Slack "Create message" action to the flow after a Salesforce "Update or create contact" action. We simply want to put a message on Slack to say what response code was received for the Salesforce action:
+In the following example, we add a Slack "Create message" action to the flow after a Salesforce "Update or create contact" action. We want to put a message on Slack to say what response code is received for the Salesforce action:
 
 ![Screen capture of a Slack Create message action that maps a response code](images/SlackSC.jpg)
 
-You can see that in the **Text** field for the Slack "Create message" action, we've typed a message, then mapped in the status code for the Salesforce "Update or create contact" action.
+You can see that in the **Text** field for the Slack "Create message" action, we type a message, then map in the status code for the Salesforce "Update or create contact" action.
 
-Here's another example of mapping response codes in a different way. This time, we've added an "If" node after a Salesforce "Update or create contact" action because we want to perform different actions that depend on whether an existing Salesforce contact was updated, or a new contact was created. In this case, a response code of "200" means that the contact was updated. So this branch of the "If" node contains an action that's specific to an updated record.
+Here's another example of mapping response codes in a different way. This time, we add an "If" node after a Salesforce "Update or create contact" action because we want to perform different actions that depend on whether an existing Salesforce contact is updated, or a new contact is created. In this case, a response code of "200" means that the contact is updated. So this branch of the "If" node contains an action that's specific to an updated record.
 
 ![Screen capture showing response codes being used in an If node](images/IfSC.jpg)
 
