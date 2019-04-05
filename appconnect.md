@@ -23,7 +23,7 @@ lastupdated: "2019-02-20"
 
 {{site.data.keyword.appconserviceshort}} connects your applications in minutes - automating updates, notifications, and events, and keeping your data in sync between multiple applications. You can use it to connect applications in the cloud or local (on-premises) applications.  
 
-You can run two types of resource in {{site.data.keyword.appconserviceshort}} to connect your apps, depending on your business needs: integration servers and flows.  To run your IBM Integration Bus or App Connect Enterprise solutions, you upload an integration solution in a BAR file, then run it in an integration server in {{site.data.keyword.appconserviceshort}}.  You create flows in {{site.data.keyword.appconserviceshort}} to connect your applications so that something that happens in one application makes something else happen in another application.  You can create event-driven flows and flows for APIs.
+You can run two types of resource in {{site.data.keyword.appconserviceshort}} to connect your apps, depending on your business needs: integration servers and flows.  To run your IBM Integration Bus or App Connect Enterprise solutions, you upload an integration solution in a BAR file, then run it in an integration server in {{site.data.keyword.appconserviceshort}}.  You create flows in {{site.data.keyword.appconserviceshort}} to connect your applications so that something that happens in one application makes something else happen in another application.  You can create event-driven flows and flows for APIs.   
 
 You can use the {{site.data.keyword.appconserviceshort}} dashboard to monitor your flows and integration servers to see how much work they're doing for you. Start and stop them, and change them when you need to.
 
@@ -54,18 +54,18 @@ A flow for an API contains a request, one or more target application actions, an
 
 For more information, see [Creating flows for an API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-flows-api/).
 
-As well as adding applications to your flows, you can also add nodes from the **Logic** tab to configure how you process data. For example, use the If node to add some conditional processing - performing different actions according to the data that you receive (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/adding-conditional-logic-flow/)). And use the For each node when you want to perform an action for each record that's returned by a retrieve action (see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/)).
+As well as adding applications to your flows, you can also add nodes from the **Logic** tab to configure how you process data. For example, use the If node to add some conditional processing - performing different actions according to the data that you receive (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/adding-conditional-logic-flow/)). And use the **For each** node when you want to perform an action for each record that is returned by a retrieval action (see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/)).
 
 If you're an IBM Integration Bus or App Connect Enterprise developer, you can also create complex integration solutions by developing message flows in the Integration Toolkit and packaging them into BAR files.
 
-Your flows and integration servers are represented by tiles on the App Connect dashboard. The tiles show summary information about the flow, API, or integration server, such as whether a flow is running or stopped, and if it's run successfully, or produced an error. You can click the tick and exclamation point icons to see when the flow last ran successfully, or what errors were raised. Click the three dots ![Icon of three vertical dots opens a menu to start, stop, edit, or delete the flow](images/Menu.jpg) to open a menu to start, stop, edit, or delete your resources. Flows have to be stopped before you can edit them.
+Your flows and integration servers are represented by tiles on the App Connect dashboard. The tiles show summary information about the flow, API, or integration server, such as whether a flow is running or stopped, and if it produced an error. You can click the tick and exclamation point icons to see when the flow last ran successfully, or what errors were raised. Click the three dots ![Icon of three vertical dots opens a menu to start, stop, edit, or delete the flow](images/Menu.jpg) to open a menu to start, stop, edit, or delete your resources. Flows have to be stopped before you can edit them.
 
 ![Screen capture that shows tiles from the dashboard for event-driven flows, flows for APIs, and integration servers](images/Dashboard.jpg)
 
 ## Applications
 {: #apps}
 
-When you create event-driven flows or flows for APIs, _applications_ are the cloud-based software applications that you're connecting.  You can see a list of the applications that you can connect with {{site.data.keyword.appconserviceshort}} on the **Applications** page. Click an application to find out more about it, to see what events and actions are supported, and to connect to your own account. You can connect multiple accounts to each application and switch between them on the Applications page. After you connect to your account, you can also update or remove your account on this page.
+When you create event-driven flows or flows for APIs, _applications_ are the cloud-based software applications that you're connecting.  You can see a list of the applications that you can connect with {{site.data.keyword.appconserviceshort}} on the **Applications** page. Click an application to find out more about it, to see what events and actions are supported, and to connect to your own account. You can connect multiple accounts to each application and switch between them on the Applications page. After you connect to your account, you can also update or remove your account on the Applications page.
 
 ![Screen capture of one of the applications on the Applications page](images/Magento2.jpg)
 
@@ -76,54 +76,51 @@ If you're using {{site.data.keyword.appconservicefull}} to run Integration Bus o
 ## Actions
 {: #actions}
 
-You can add several types of action to your flows. Common actions are create, retrieve, and update or create, but some applications have specific actions. For example, the Watson Personality Insights application has an action that's called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconserviceshort}} by typing the action type in the search field on the Applications page:
+You can add several types of action to your flows. Common actions are create, retrieve, and update or create, but some applications have specific actions. For example, the Watson Personality Insights application has an action that is called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconserviceshort}} by typing the action type in the search field on the Applications page:
 
-![Screen capture that shows supported retrieve actions for applications](images/RetrieveApps2.jpg)
+![Screen capture that shows supported retrieval actions for applications](images/RetrieveApps2.jpg)
 
 **Create**
 
-As the name suggests, the create action creates an object or record in an application. For example, if someone signs up to your event or submits a completed form, you might want to create a record for that person in your CRM or marketing application. Or if someone opens a ticket in your help desk application, you might want to create an email or instant message to ensure that someone deals with it straight away. If there’s a possibility that the object that you want to create might already exist, you can use an *update or create* action instead.
+As the name suggests, the create action creates an object or record in an application. For example, if someone signs up to your event or submits a completed form, you might want to create a record for that person in your CRM or marketing application. Or if someone opens a ticket in your help desk application, you might want to create an email or instant message to ensure that someone deals with it straight away. If there’s a possibility that the object that you want to create mightF exist, you can use an *update or create* action instead.
 
 For some applications, you might have to provide some extra information when you add a create action to a flow so that your flow knows where to create the object. For example, if you're using a project management application like Asana or Trello, when you create a task or a card, you need to specify the project or the board where you want to add it.
 
 **Update or create**
 
-The update or create action changes an existing record in your target application if it exists, but creates the record if it doesn’t exist. It’s also known as an upsert (update or insert) action.
+The update or create action changes an existing record in your target application if it exists, but creates the record if it doesn’t exist. It is also known as an upsert (update or insert) action.
 
-For example, say that someone submits a Wufoo form with a change of address. If the contact is already in your CRM system, you want to update their address; but if they’re not, you want to add them. Like the retrieve action, when you choose an action to update data in one of your applications, you can add one or more conditions to ensure that you’re updating the right information.
+For example, say that someone submits a Wufoo form with a change of address. If the contact is already in your CRM system, you want to update their address; but if they’re not, you want to add them. Like the retrieval action, when you choose an action to update data in one of your applications, you can add one or more conditions to ensure that you’re updating the right information.
 
-If there’s more than one record in your target system that matches your criteria, you see an error for the flow on the dashboard, and the flow won’t update or create any records. For example, maybe you have more than one contact with the same first and last names. So you could try to match a contact by using unique data, such as their email address.
+If there’s more than one record in your target system that matches your criteria, you see an error for the flow on the dashboard, and the flow doesn’t update or create any records. For example, maybe you have more than one contact with the same first and last names. So you could try to match a contact by using unique data, such as their email address.
 
-The status codes that you’re likely to see in response to an update or create action are:
+You're likely to see the following status codes in response to an update or create action.
+-   200 A record was updated
+-   201 A record was created
 
--   200: A record was updated
--   201: A record was created
-
-You can use these response codes later in your flow. Maybe you want to take different actions depending on whether a record was updated or created. For an example of defining actions based on response codes, see the tutorial [Creating an event-driven flow that updates or creates a contact in Salesforce and updates Asana whenever you receive a form in Wufoo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-event-driven-flow-updates-creates-contact-salesforce-updates-asana-whenever-receive-form-wufoo/).
+You can use these response codes later in your flow. Maybe you want to take different actions that depend on whether a record was updated or created. For an example of defining actions based on response codes, see the tutorial [Creating an event-driven flow that updates or creates a contact in Salesforce and updates Asana whenever you receive a form in Wufoo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-event-driven-flow-updates-creates-contact-salesforce-updates-asana-whenever-receive-form-wufoo/).
 
 **Retrieve**
 
-The retrieve action gets information from an application so that you can use it in another application.
+The retrieval action gets information from an application so that you can use it in another application.
 
 When you add an action to your flow to retrieve objects, you can define one or more conditions to make sure that you’re retrieving the right items. Or, if you want to retrieve all items of a particular type, you can delete the condition. You can also define how many items you want to retrieve, and what happens if {{site.data.keyword.appconserviceshort}} finds more than or less than that number.
 
 You can handle your retrieved items in two ways:
+-   You can add a "For each" node after the retrieval action to perform an action for each of the items that were retrieved.
+-   You can add another action after the retrieval action to process the list of retrieved items. This action is a single action, no matter how many items are returned – such as creating an email that lists all the retrieved items.
 
--   You can add a "For each" node after the retrieve action to perform an action for each of the items that were retrieved.
--   You can add another action after the retrieve action to process the list of retrieved items. This action is a single action, no matter how many items are returned – such as creating an email that lists all the retrieved items.
-
-You can also decide what action to take based on the status code that you get in response to the retrieve action. You could use an “If” node to perform different actions for different status codes. The status codes that you’re likely to see in response to a retrieve action are:
-
--   204: No records were found
--   200: All records in the application match the condition
--   206: The specified maximum number of records were retrieved, but more matching records exist in the application
+You can also decide what action to take based on the status code that you get in response to the retrieval action. You could use an “If” node to perform different actions for different status codes. You're likely to see the following status codes in response to a retrieval action are.
+-   204 No records were found
+-   200 All records in the application match the condition
+-   206 The specified maximum number of records were retrieved, but more matching records exist in the application
 
 For more information, see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/).
 
 ## Data mapping
 {: #transforms}
 
-After you create a flow, add your applications, and select appropriate actions, you need to specify what information you want to transfer between your applications. You can see in the flow editor that when you add an action to your flow, you see a list of available fields for that application.  You can populate these fields with data from your source application, or previous actions in the flow.
+After you create a flow, add your applications, and select appropriate actions, you must specify what information you want to transfer between your applications. You can see in the flow editor that when you add an action to your flow, you see a list of available fields for that application.  You can populate these fields with data from your source application, or previous actions in the flow.
 
 Some fields are mandatory, and they're marked with an asterisk. For example, when you're creating a lead in Salesforce, you must specify a last name:
 
@@ -133,7 +130,7 @@ When you click in one of these fields, you see a couple of icons: **Insert refer
 
 ![Screen capture that shows available inputs for a data mapping](images/Inputs.jpg)
 
-In the following example, our flow is triggered when a new completed form is received in Wufoo. We want to create a contact in Salesforce for the person who's submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the last name of the Salesforce contact, we select the last name of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
+In the following example, our flow is triggered when a new completed form is received in Wufoo. We want to create a contact in Salesforce for the person who submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the last name of the Salesforce contact, we select the last name of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
 
 ![Screen capture that shows that the Wufoo Last name field is mapped to the Salesforce Last name field](images/Mapping.jpg)
 
@@ -147,11 +144,10 @@ Here's another example of mapping response codes in a different way. This time, 
 
 ![Screen capture that shows how response codes are used in an If node](images/IfSC.jpg)
 
-The **Apply a function** icon ![Apply a function icon](Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to upper or lower case, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata, a lightweight query and transformation language. For more information, see [http://jsonata.org ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://jsonata.org).
+The **Apply a function** icon ![Apply a function icon](Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to upper-case or lower-case text, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata, a lightweight query and transformation language. For more information, see [http://jsonata.org ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://jsonata.org).
 
 
 ## BAR files and integration servers
 {: #barfiles}
 
 A BAR file is a compressed file to which you add deployable resources in IBM Integration Bus or App Connect Enterprise.  When you develop an integration solution in Integration Bus or App Connect Enterprise, you package your message flows and all the resources that those message flows use in a BAR file.  You then deploy the BAR file to an integration server.  That server can be on premises or in {{site.data.keyword.appconserviceshort}}.  You can run your Integration Bus or App Connect Enterprise solutions in App Connect, without the need to acquire and maintain an IT infrastructure.  When you upload a BAR file to App Connect, an integration server is created to run the contents of the BAR file.  You can configure basic authentication and secure connectivity between your cloud-based and on-premises resources (see [Running your Integration Bus solutions in App Connect ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/running-your-ibm-integration-bus-solutions-in-ibm-app-connect-enterprise-beta-plan)).  
-
