@@ -17,7 +17,7 @@ lastupdated: "2019-02-06"
 
 
 # IBM App Connect 入门
-{: #gettingStarted}
+{: #getting-started}
 
 {{site.data.keyword.appconservicefull}} 可帮助您连接应用程序：从简单的触发/操作交互到复杂的集成。您可以使用 {{site.data.keyword.appconserviceshort}} 来创建事件驱动的流或 API 流；或者可以上传并运行在 IBM Integration Bus 中创建的集成解决方案，而无需获取和维护 IT 基础架构。您可以在 {{site.data.keyword.appconserviceshort}} 仪表板上的一个位置中查看和管理所有集成 - 集成服务器、事件驱动的流和 API 流。 
 
