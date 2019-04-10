@@ -17,7 +17,7 @@ lastupdated: "2019-02-06"
 
 
 # Einführung in IBM App Connect
-{: #gettingStarted}
+{: #getting-started}
 
 {{site.data.keyword.appconservicefull}} hilft Ihnen dabei, Ihre Anwendungen zu verbinden: von einfachen Interaktionen mit Auslöseraktionen bis hin zu komplexen Integrationen. Sie können {{site.data.keyword.appconserviceshort}} verwenden, um ereignisgesteuerte Abläufe oder Abläufe für APIs zu erstellen. Sie können die von Ihnen in IBM Integration Bus erstellten Integrationslösungen auch hochladen und ausführen, ohne eine IT-Infrastruktur anzufordern oder warten zu müssen. Sie können alle Ihre Integrationen wie Integrationsserver, ereignisgesteuerte Abläufe und Abläufe für APIs an einem Ort, nämlich im {{site.data.keyword.appconserviceshort}}-Dashboard anzeigen und verwalten. 
 
