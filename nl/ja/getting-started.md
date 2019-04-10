@@ -17,7 +17,7 @@ lastupdated: "2019-02-06"
 
 
 # IBM App Connect の概要
-{: #gettingStarted}
+{: #getting-started}
 
 {{site.data.keyword.appconservicefull}} は、単純なトリガー・アクション対話から複雑な統合に至るまで、アプリケーションを接続するのに役立ちます。{{site.data.keyword.appconserviceshort}} を使用して、イベント・ドリブン・フローや API 用のフローを作成できます。あるいは、IBM Integration Bus で作成した統合ソリューションを、IT インフラストラクチャーを獲得したり保守したりせずにアップロードして実行することもできます。{{site.data.keyword.appconserviceshort}} ダッシュボード上の 1 つの場所で、統合サーバー、イベント・ドリブン・フロー、API 用のフローといったすべての統合を参照したり管理したりできます。 
 
