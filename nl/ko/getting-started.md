@@ -17,7 +17,7 @@ lastupdated: "2019-02-06"
 
 
 # IBM App Connect 시작하기
-{: #gettingStarted}
+{: #getting-started}
 
 {{site.data.keyword.appconservicefull}}는 단순한 트리거-조치 상호작용에서 복잡한 상호작용까지 이르는 애플리케이션에 연결하는 데 도움을 줍니다. {{site.data.keyword.appconserviceshort}}를 사용하여 이벤트 중심 플로우 또는 API용 플로우를 작성할 수 있거나, IT 인프라를 확보하고 유지보수할 필요 없이 IBM Integration Bus에 작성하는 통합 솔루션을 실행할 수 있습니다. 모든 통합 즉, 통합 서버, 이벤트 중심 플로우 및 API용 플로우를 {{site.data.keyword.appconserviceshort}} 대시보드의 하나의 위치에서 보고 관리할 수 있습니다.  
 
