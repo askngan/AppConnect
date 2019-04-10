@@ -17,7 +17,7 @@ lastupdated: "2019-02-06"
 
 
 # 開始使用 IBM App Connect
-{: #gettingStarted}
+{: #getting-started}
 
 {{site.data.keyword.appconservicefull}} 可協助您連接應用程式：從簡單觸發動作互動到複雜整合。您可以使用 {{site.data.keyword.appconserviceshort}} 建立事件驅動流程或 API 的流程，也可以上傳及執行您在 IBM Integration Bus 中建立的整合解決方案，而不需要獲得及維護 IT 基礎架構。您可以在 {{site.data.keyword.appconserviceshort}} 儀表板的一個位置查看及管理所有整合（整合伺服器、事件驅動流程及流程的 API）。 
 
