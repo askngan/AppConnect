@@ -17,7 +17,7 @@ lastupdated: "2019-02-06"
 
 
 # Introdução ao IBM App Connect
-{: #gettingStarted}
+{: #getting-started}
 
 O {{site.data.keyword.appconservicefull}} ajuda você a conectar seus aplicativos: desde simples interações
 de ação acionadora até integrações complexas. É possível usar o {{site.data.keyword.appconserviceshort}} para
