@@ -17,7 +17,7 @@ lastupdated: "2019-02-06"
 
 
 # Introduzione a IBM App Connect
-{: #gettingStarted}
+{: #getting-started}
 
 {{site.data.keyword.appconservicefull}} ti aiuta a connettere le tue applicazioni, dalle semplici interazioni trigger-azione alle integrazioni complesse. Puoi utilizzare {{site.data.keyword.appconserviceshort}} per creare flussi guidati dagli eventi oppure flussi per le API; in alternativa, puoi caricare ed eseguire le soluzioni di integrazione che crei in IBM Integration Bus senza che ti occorra acquisire e mantenere un'infrastruttura IT. Puoi visualizzare e amministrare tutte le tue integrazioni - server di integrazione, flussi guidati dagli eventi e flussi per le API - in una singola ubicazione nel dashboard {{site.data.keyword.appconserviceshort}}. 
 
