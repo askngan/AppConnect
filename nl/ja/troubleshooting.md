@@ -33,8 +33,7 @@ lastupdated: "2019-02-06"
 -   {{site.data.keyword.appconserviceshort}} に関するよくある質問の回答は、[Frequently asked questions about {{site.data.keyword.appconserviceshort}}
 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/integration/docs/app-connect/faq/) で検索してください。
 -   [Tutorials for {{site.data.keyword.appconserviceshort}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/) にあるアプリケーションの接続方法に関するステップバイステップの説明に従ってください。
--   {{site.data.keyword.appconserviceshort}} を使用したアプリケーションの開発やデプロイについて技術的な質問がある場合は、質問を [Stack Overflow ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://stackoverflow.com/search?q=app-connect+ibm-bluemix) に投稿し、その質問に「ibm-bluemix」と「app-connect」(ハイフン付き) のタグを付けます。
--   サービスや使用開始の手順についての質問には、[IBM developerWorks&reg; dW Answers ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/answers/topics/app_connect/?smartspace=bluemix) フォーラムを使用してください。「bluemix」と「app_connect」(下線付き) のタグを含めます。
+-   サービスや使用開始の手順についての質問には、[IBM developerWorks&reg; dW Answers ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/answers/topics/app_connect/?smartspace=bluemix) フォーラムを使用してください。「ibm_cloud」と「app_connect」(下線付き) のタグを含めます。
 
     {{site.data.keyword.Bluemix}} サポート・メカニズムの使用について詳しくは、[Getting help ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.ng.bluemix.net/docs/support/index.html#getting-help) を参照してください。
 
