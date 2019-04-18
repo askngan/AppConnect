@@ -33,8 +33,7 @@ lastupdated: "2019-02-06"
 -   要查看集成服务器的日志信息，请打开集成服务器，然后单击**下载日志**或**查看日志**。要在 Kibana 中查看集成服务器的日志，必须将“日志记录”策略连接到该集成服务器（请参阅 [Viewing logs for your integration servers ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/running-your-ibm-integration-bus-solutions-in-ibm-app-connect-enterprise-beta-plan/viewing-logs-for-your-integration-servers-in-app-connect-enterprise-beta)）。
 -   在 [Frequently asked questions about {{site.data.keyword.appconserviceshort}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/integration/docs/app-connect/faq/) 中查找有关 {{site.data.keyword.appconserviceshort}} 的常见问题的答案。
 -   按照 [Tutorials for {{site.data.keyword.appconserviceshort}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/) 中有关如何连接应用程序的逐步指示信息进行操作。
--   如果有关于使用 {{site.data.keyword.appconserviceshort}} 开发或部署应用程序的技术问题，请在 [Stack Overflow ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://stackoverflow.com/search?q=app-connect+ibm-bluemix) 上发帖提问，并使用“ibm-bluemix”和“app-connect”（含连字符）标记您的问题。
--   有关服务和入门指示信息的问题，请使用 [IBM developerWorks&reg; dW Answers ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/answers/topics/app_connect/?smartspace=bluemix) 论坛。请包含“bluemix”和“app_connect”（含下划线）标记。
+-   有关服务和入门指示信息的问题，请使用 [IBM developerWorks&reg; dW Answers ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/answers/topics/app_connect/?smartspace=bluemix) 论坛。请包含“ibm_cloud”和“app_connect”（含下划线）标记。
 
     有关使用 {{site.data.keyword.Bluemix}} 支持机制的更多信息，请参阅[获取帮助 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.ng.bluemix.net/docs/support/index.html#getting-help)。
 
