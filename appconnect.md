@@ -27,7 +27,7 @@ You can run two types of resource in {{site.data.keyword.appconserviceshort}} to
 
 You can use the {{site.data.keyword.appconserviceshort}} dashboard to monitor your flows and integration servers to see how much work they're doing for you. Start and stop them, and change them when you need to.
 
-Here we explain the features and terminology of {{site.data.keyword.appconserviceshort}} in more detail:
+Here the features and terminology of {{site.data.keyword.appconserviceshort}} are explained in more detail:
 
 -   [Flows](#flows)
 -   [Applications](#apps)
@@ -54,7 +54,7 @@ A flow for an API contains a request, one or more target application actions, an
 
 For more information, see [Creating flows for an API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-flows-api/).
 
-As well as adding applications to your flows, you can also add nodes from the **Logic** tab to configure how you process data. For example, use the "If" node to add some conditional processing - performing different actions according to the data that you receive (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/adding-conditional-logic-flow/)). And use the **For each** node when you want to perform an action for each record that is returned by a retrieval action (see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/)).
+As well as adding applications to your flows, you can also add nodes from the **Logic** tab to configure how you process data. For example, use the "If" node to add some conditional processing - performing different actions according to the data that you receive (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/adding-conditional-logic-flow/)). And use the "**For each**" node when you want to perform an action for each record that is returned by a retrieval action (see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/)).
 
 If you're an IBM Integration Bus or App Connect Enterprise developer, you can also create complex integration solutions by developing message flows in the Integration Toolkit and packaging them into BAR files.
 
@@ -82,7 +82,7 @@ You can add several types of action to your flows. Common actions are create, re
 
 **Create**
 
-As the name suggests, the create action creates an object or record in an application. For example, if someone signs up to your event or submits a completed form, you might want to create a record for that person in your CRM or marketing application. Or if someone opens a ticket in your help desk application, you might want to create an email or instant message to ensure that someone deals with it straight away. If there’s a possibility that the object that you want to create mightF exist, you can use an *update or create* action instead.
+As the name suggests, the create action creates an object or record in an application. For example, if someone signs up to your event or submits a completed form, you might want to create a record for that person in your CRM or marketing application. Or if someone opens a ticket in your help desk application, you might want to create an email or instant message to ensure that someone deals with it straight away. If the object that you want to create might exist, you can use an *update or create* action instead.
 
 For some applications, you might have to provide some extra information when you add a create action to a flow so that your flow knows where to create the object. For example, if you're using a project management application like Asana or Trello, when you create a task or a card, you need to specify the project or the board where you want to add it.
 
@@ -126,21 +126,21 @@ Some fields are mandatory, and they're marked with an asterisk. For example, whe
 
 ![Screen capture that shows that the "Last name" field is mandatory](images/LastName.jpg)
 
-When you click in one of these fields, you see a couple of icons: **Insert reference** ![Insert reference icon](images/InsertRef.jpg) and **Apply a Function** ![Apply a function icon](images/Functions.jpg). If you click **Insert reference**, you can see the available data that you can put in that field from preceding applications in the flow. The following example shows that we can choose fields from the Wufoo source application, or from a previous Salesforce action in the flow. We can also use the status code from the Salesforce update or create action.
+When you click in one of these fields, you see a couple of icons: **Insert reference** ![Insert reference icon](images/InsertRef.jpg) and **Apply a Function** ![Apply a function icon](images/Functions.jpg). If you click **Insert reference**, you can see the available data that you can put in that field from preceding applications in the flow. The following example shows that you can choose fields from the Wufoo source application, or from a previous Salesforce action in the flow. You can also use the status code from the Salesforce update or create action.
 
 ![Screen capture that shows available inputs for a data mapping](images/Inputs.jpg)
 
-In the following example, our flow is triggered when a new completed form is received in Wufoo. We want to create a contact in Salesforce for the person who submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the surname of the Salesforce contact, we select the surname of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
+In the following example, the flow is triggered when a new completed form is received in Wufoo. Say you want to create a contact in Salesforce for the person who submitted the form. So when you add your Salesforce "Create contact" action to the flow, you copy the details for your contact from the Wufoo form. Here you can see that for the surname of the Salesforce contact, you select the surname of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
 
 ![Screen capture that shows that the Wufoo "Last name" field is mapped to the Salesforce "Last name" field](images/Mapping.jpg)
 
-In the following example, we add a Slack "Create message" action to the flow after a Salesforce "Update or create contact" action. We want to put a message on Slack to say what response code is received for the Salesforce action:
+In the following example, you add a Slack "Create message" action to the flow after a Salesforce "Update or create contact" action. Say you want to put a message on Slack to say what response code is received for the Salesforce action:
 
 ![Screen capture of a Slack Create message action that maps a response code](images/SlackSC.jpg)
 
-You can see that in the **Text** field for the Slack "Create message" action, we type a message, then map in the status code for the Salesforce "Update or create contact" action.
+You can see that in the **Text** field for the Slack "Create message" action, you type a message, then map in the status code for the Salesforce "Update or create contact" action.
 
-Here's another example of mapping response codes in a different way. This time, we add an "If" node after a Salesforce "Update or create contact" action because we want to perform different actions that depend on whether an existing Salesforce contact is updated, or a new contact is created. In this case, a response code of "200" means that the contact is updated. So this branch of the "If" node contains an action that's specific to an updated record.
+Here's another example of mapping response codes in a different way. This time, you add an "If" node after a Salesforce "Update or create contact" action to perform different actions that depend on whether an existing Salesforce contact is updated, or a new contact is created. In this case, a response code of "200" means that the contact is updated. So this branch of the "If" node contains an action that's specific to an updated record.
 
 ![Screen capture that shows how response codes are used in an "If" node](images/IfSC.jpg)
 
