@@ -92,7 +92,7 @@ The update or create action changes an existing record in your target applicatio
 
 For example, say that someone submits a Wufoo form with a change of address. If the contact is already in your CRM system, you want to update their address; but if they’re not, you want to add them. Like the retrieval action, when you choose an action to update data in one of your applications, you can add one or more conditions to ensure that you’re updating the right information.
 
-If there’s more than one record in your target system that matches your criteria, you see an error for the flow on the dashboard, and the flow doesn’t update or create any records. For example, maybe you have more than one contact with the same first and last names. So you could try to match a contact by using unique data, such as their email address.
+If there’s more than one record in your target system that matches your criteria, you see an error for the flow on the dashboard, and the flow doesn’t update or create any records. For example, maybe you have more than one contact with the same first name and surname. So you could try to match a contact by using unique data, such as their email address.
 
 You're likely to see the following status codes in response to an update or create action.
 -   200 A record was updated
@@ -122,17 +122,17 @@ For more information, see [Retrieving items from your applications ![External li
 
 After you create a flow, add your applications, and select appropriate actions, you must specify what information you want to transfer between your applications. You can see in the flow editor that when you add an action to your flow, you see a list of available fields for that application.  You can populate these fields with data from your source application, or previous actions in the flow.
 
-Some fields are mandatory, and they're marked with an asterisk. For example, when you're creating a lead in Salesforce, you must specify a last name:
+Some fields are mandatory, and they're marked with an asterisk. For example, when you're creating a lead in Salesforce, you must specify a surname:
 
-![Screen capture that shows that the Last name field is mandatory](images/LastName.jpg)
+![Screen capture that shows that the "Last name" field is mandatory](images/LastName.jpg)
 
 When you click in one of these fields, you see a couple of icons: **Insert reference** ![Insert reference icon](images/InsertRef.jpg) and **Apply a Function** ![Apply a function icon](images/Functions.jpg). If you click **Insert reference**, you can see the available data that you can put in that field from preceding applications in the flow. The following example shows that we can choose fields from the Wufoo source application, or from a previous Salesforce action in the flow. We can also use the status code from the Salesforce update or create action.
 
 ![Screen capture that shows available inputs for a data mapping](images/Inputs.jpg)
 
-In the following example, our flow is triggered when a new completed form is received in Wufoo. We want to create a contact in Salesforce for the person who submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the last name of the Salesforce contact, we select the last name of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
+In the following example, our flow is triggered when a new completed form is received in Wufoo. We want to create a contact in Salesforce for the person who submitted the form. So when we add our Salesforce "Create contact" action to the flow, we copy the details for our contact from the Wufoo form. Here we can see that for the surname of the Salesforce contact, we select the surname of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
 
-![Screen capture that shows that the Wufoo Last name field is mapped to the Salesforce Last name field](images/Mapping.jpg)
+![Screen capture that shows that the Wufoo "Last name" field is mapped to the Salesforce "Last name" field](images/Mapping.jpg)
 
 In the following example, we add a Slack "Create message" action to the flow after a Salesforce "Update or create contact" action. We want to put a message on Slack to say what response code is received for the Salesforce action:
 
