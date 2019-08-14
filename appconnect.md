@@ -42,7 +42,7 @@ You can create two types of flow in {{site.data.keyword.appconserviceshort}}: an
 
 In an event-driven flow, you identify an event that can occur in your first application (the source application), and actions that can be performed in one or more target applications. The flow links the event to the actions so that, whenever the event occurs in the source application, the action is automatically triggered in the target applications. Each successfully completed action counts towards your monthly quota. When you create a flow, you add your applications, and choose actions. Then, you map the data that you want to transfer between your applications.
 
-For example, you might create a flow so that whenever someone registers as a new attendee with Eventbrite (the event), {{site.data.keyword.appconserviceshort}} automatically retrieves details of the attendee from Salesforce and creates a new task in Asana (the actions).
+For example, you might create a flow so that whenever someone registers as a new attendee with Eventbrite (the event), {{site.data.keyword.appconserviceshort}} automatically retrieves details of the attendee from Salesforce and creates a task in Asana (the actions).
 
 ![A multi-node flow, with the source application and two target applications](images/multi_node_flow2.jpg)
 
@@ -71,7 +71,7 @@ When you create event-driven flows or flows for APIs, _applications_ are the clo
 
 You don't have to connect to your applications on the Applications page; you can also connect in the flow editor as you add the applications to your flow. Many applications require just a user name and password, but some need more information. You can find out how to find this information in the [How-to guides for apps ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/how-to-guides-for-apps/).
 
-If you're using {{site.data.keyword.appconservicefull}} to run Integration Bus or App Connect Enterprise solutions in the cloud, an _application_ is the container that holds your message flows, libraries, and other resources that are required by your solution. 
+If you're using {{site.data.keyword.appconserviceshort}} to run BAR files in the cloud, an _application_ is the container that holds your message flows, libraries, and other resources that are required by your solution. 
 
 ## Actions
 {: #actions}
@@ -84,15 +84,15 @@ You can add several types of action to your flows. Common actions are create, re
 
 As the name suggests, the create action creates an object or record in an application. For example, if someone signs up to your event or submits a completed form, you might want to create a record for that person in your CRM or marketing application. Or if someone opens a ticket in your help desk application, you might want to create an email or instant message to ensure that someone deals with it straight away. If the object that you want to create might exist, you can use an *update or create* action instead.
 
-For some applications, you might have to provide some extra information when you add a create action to a flow so that your flow knows where to create the object. For example, if you're using a project management application like Asana or Trello, when you create a task or a card, you need to specify the project or the board where you want to add it.
+For some applications, you might have to provide some extra information when you add a create action to a flow so that your flow knows where to create the object. For example, if you're using a project management application like Asana or Trello, you need to specify a project or board when you create a task or a card.
 
 **Update or create**
 
 The update or create action changes an existing record in your target application if it exists, but creates the record if it doesn’t exist. It is also known as an upsert (update or insert) action.
 
-For example, say that someone submits a Wufoo form with a change of address. If the contact is already in your CRM system, you want to update their address; but if they’re not, you want to add them. Like the retrieval action, when you choose an action to update data in one of your applications, you can add one or more conditions to ensure that you’re updating the right information.
+For example, say that someone submits a Wufoo form with a change of address. If the contact is already in your CRM system, you want to update their address; but if they’re not, you want to add them. When you choose an action to update data in one of your applications, you can add one or more conditions to ensure that you’re updating the right information.
 
-If there’s more than one record in your target system that matches your criteria, you see an error for the flow on the dashboard, and the flow doesn’t update or create any records. For example, maybe you have more than one contact with the same first name and surname. So you could try to match a contact by using unique data, such as their email address.
+If there’s more than one record in your target system that matches your criteria, you see an error for the flow on the dashboard.  In this case, the flow doesn’t update or create any records. For example, maybe you have more than one contact with the same first name and surname. So you could try to match a contact by using unique data, such as their email address.
 
 You're likely to see the following status codes in response to an update or create action.
 -   200 A record was updated
@@ -130,21 +130,21 @@ When you click in one of these fields, you see a couple of icons: **Insert refer
 
 ![Screen capture that shows available inputs for a data mapping](images/Inputs.jpg)
 
-In the following example, the flow is triggered when a new completed form is received in Wufoo. Say you want to create a contact in Salesforce for the person who submitted the form. So when you add your Salesforce "Create contact" action to the flow, you copy the details for your contact from the Wufoo form. Here you can see that for the surname of the Salesforce contact, you select the surname of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
+In the following example, the flow is triggered when a new completed form is received in Wufoo. You want to create a contact in Salesforce for the person who submitted the form. So when you add your Salesforce "Create contact" action to the flow, you copy the details for your contact from the Wufoo form. Here you can see that for the surname of the Salesforce contact, you select the surname of the Wufoo form submitter. You can see that the mapped field is from Wufoo because of the color:
 
 ![Screen capture that shows that the Wufoo "Last name" field is mapped to the Salesforce "Last name" field](images/Mapping.jpg)
 
-In the following example, you add a Slack "Create message" action to the flow after a Salesforce "Update or create contact" action. Say you want to put a message on Slack to say what response code is received for the Salesforce action:
+In the following example, you add a Slack "Create message" action to the flow after a Salesforce "Update or create contact" action. You want to put a message on Slack to say what response code is received for the Salesforce action:
 
 ![Screen capture of a Slack Create message action that maps a response code](images/SlackSC.jpg)
 
-You can see that in the **Text** field for the Slack "Create message" action, you type a message, then map in the status code for the Salesforce "Update or create contact" action.
+You can see that in the **Text** field for the Slack "Create message" action you type a message, then map in the status code for the Salesforce "Update or create contact" action.
 
-Here's another example of mapping response codes in a different way. This time, you add an "If" node after a Salesforce "Update or create contact" action to perform different actions that depend on whether an existing Salesforce contact is updated, or a new contact is created. In this case, a response code of "200" means that the contact is updated. So this branch of the "If" node contains an action that's specific to an updated record.
+Here's another example of mapping response codes in a different way. This time, you add an "If" node after a Salesforce "Update or create contact" action.  The "If" node performs different actions that depend on whether an existing Salesforce contact is updated, or a new contact is created. In this case, a response code of "200" means that the contact is updated. So this branch of the "If" node contains an action that's specific to an updated record.
 
 ![Screen capture that shows how response codes are used in an "If" node](images/IfSC.jpg)
 
-The **Apply a function** icon ![Apply a function icon](images/Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to uppercase or lowercase text, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata, a lightweight query and transformation language. For more information, see [http://jsonata.org ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://jsonata.org).
+The **Apply a function** icon ![Apply a function icon](images/Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to uppercase or lowercase text, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata (a lightweight query and transformation language). For more information, see [http://jsonata.org ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://jsonata.org).
 
 
 ## BAR files and integration servers
