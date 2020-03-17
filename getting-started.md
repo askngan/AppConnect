@@ -76,7 +76,7 @@ To find out how to test your API, see [Exposing an App Connect flow through API 
 
 ## Running an IBM App Connect Enterprise or IBM Integration Bus integration solution
 
-You can deploy integration solutions that are developed in App Connect Enterprise or Integration Bus to the cloud, without the need to acquire and maintain an IT infrastructure. Import a BAR file that contains all the artifacts that make up your integration solution, then run the contents in an integration server in App Connect. To upload a BAR file to App Connect, you must have App Connect Enterprise, or Integration Bus v10.0.0.4 or later, installed on premises.
+You can deploy integration solutions that are developed in App Connect Enterprise or Integration Bus to the cloud, without the need to acquire and maintain an IT infrastructure. Import a BAR file that contains all the artifacts that make up your integration solution, then run the contents in an integration server in App Connect. (To create a BAR file, you must have App Connect Enterprise, or Integration Bus v10.0.0.4 or later, installed on premises.)
 
 To run your App Connect Enterprise or Integration Bus solutions in App Connect, complete the following steps.
 1. On the {{site.data.keyword.appconserviceshort}} dashboard, click **New** > **Import a BAR file**.
