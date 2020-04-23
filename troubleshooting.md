@@ -40,7 +40,7 @@ To troubleshoot problems with {{site.data.keyword.appconservicefull}} flows and 
 ## Reporting a problem to the IBM App Connect team
 {: #reporting}
 
-If you followed the troubleshooting advice and you're still experiencing a problem, you can get help from the   {{site.data.keyword.appconserviceshort}} team.  From the {{site.data.keyword.appconserviceshort}} menu, click **Contact us**, then **Get support**.  Sign in with your IBM ID, click **Create a case**, and provide as much of the following information as you can. (You can also click **Support** in the {{site.data.keyword.Bluemix}} console.) 
+If you followed the troubleshooting advice and you're still experiencing a problem, you can get help from the   {{site.data.keyword.appconserviceshort}} team.  From the {{site.data.keyword.appconserviceshort}} menu, click **Contact**, then **Get support**.  Sign in with your IBM ID, click **Create a case**, and click the **App Connect** tile.  Then provide as much of the following information as you can. (You can also click **Support** in the {{site.data.keyword.Bluemix}} console.)
 
 * The {{site.data.keyword.Bluemix}} region where your instance of {{site.data.keyword.appconserviceshort}} is provisioned. (For example, Dallas or London.)
 * The Instance ID of the {{site.data.keyword.appconserviceshort}} service that you're using. (You can find this ID by looking at the account information under the {{site.data.keyword.appconserviceshort}} Instance Identifier.)
