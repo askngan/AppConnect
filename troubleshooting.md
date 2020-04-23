@@ -44,6 +44,7 @@ If you followed the troubleshooting advice and you're still experiencing a probl
 
 * The {{site.data.keyword.Bluemix}} region where your instance of {{site.data.keyword.appconserviceshort}} is provisioned. (For example, Dallas or London.)
 * The Instance ID of the {{site.data.keyword.appconserviceshort}} service that you're using. (You can find this ID by looking at the account information under the {{site.data.keyword.appconserviceshort}} Instance Identifier.)
+* The URL that you use to access your {{site.data.keyword.appconserviceshort}} instance.
 * The problem that you're experiencing. (For example, whether the problem is with a specific application or function.)
 * The batch ID if the problem is related to batch processing. (If errors occur in a batch process, and you defined an ID for each record in the batch, your defined ID is in the "batch-record-id_str" column of the log. For more information, see [How to use batch processing in {{site.data.keyword.appconserviceshort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/toolbox-utilities/how-to-use-batch-processing-in-ibm-app-connect/).)
 * The date and time (including time zone) when the problem first occurred, and the length of time that the flow was running before the problem occurred.
