@@ -19,7 +19,7 @@ lastupdated: "2019-11-22"
 # Getting started tutorial
 {: #getting-started}
 
-{{site.data.keyword.appconservicefull}} helps you to connect your applications: from simple trigger-action interactions to complex integrations.  You can use {{site.data.keyword.appconserviceshort}} to create event-driven flows or flows for APIs.  Or you can upload and run the integration solutions that you create in IBM App Connect Enterprise of IBM Integration Bus, without the need to acquire and maintain an IT infrastructure.  You can see and administer all your integrations - integration servers, event-driven flows, and flows for APIs - in one place on the {{site.data.keyword.appconserviceshort}} dashboard. 
+{{site.data.keyword.appconservicefull}} helps you to connect your applications: from simple trigger-action interactions to complex integrations.  You can use {{site.data.keyword.appconserviceshort}} to create event-driven flows or flows for APIs.  Or you can upload and run the integration solutions that you create in IBM App Connect Enterprise or IBM Integration Bus, without the need to acquire and maintain an IT infrastructure.  You can see and administer all your integrations - integration servers, event-driven flows, and flows for APIs - in one place on the {{site.data.keyword.appconserviceshort}} dashboard. 
 
 After you create an instance of the {{site.data.keyword.appconserviceshort}} service, you can access {{site.data.keyword.appconserviceshort}} from the {{site.data.keyword.Bluemix}} dashboard.
 
@@ -32,10 +32,10 @@ As the name suggests, an event-driven flow consists of an event in a source appl
     {{site.data.keyword.appconserviceshort}} saves your changes automatically as you go. If you navigate away from the flow at any stage, the flow is saved as a draft flow that you can complete at another time.
 1.  Enter a name for your flow.
 1.  Select the trigger event to start your flow by expanding an application and selecting an event.
-1.  If you're not already connected to your application, click **Connect to _application_** and enter your login details for the application.
+1.  If you're not already connected to your application, click **Connect** and enter your login details for the application.
     You might have to provide extra connection details for some applications; if you need help with finding credentials for a particular application, see the [How-to guides for apps ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/how-to-guides-for-apps/).
-1.  Select the action to be triggered in your second application by expanding an application and selecting an action.
-    If necessary, click **Connect to application** and enter your login details for the target application.
+1.  Select the action to be triggered in your second application by clicking the plus icon in the flow ![Add an application icon](/images/AddApp.jpg), expanding an application, and selecting an action.
+    If necessary, click **Connect** and enter your login details for the target application.
 1. Enter the data that you want to transfer between your applications.
     You can add source field names manually by clicking in a field then clicking the mapping icon ![Mapping icon](/images/MappingIcon.jpg). You can also type in text, or use a transformation function to customize the source value. For more information, see [Applying JSONata functions to transform your data ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/creating-managing-event-driven-flows/completing-fields-action/applying-jsonata-functions/).
 1. Optional: You can refine how your flow works by doing the following things:
@@ -45,7 +45,7 @@ As the name suggests, an event-driven flow consists of an event in a source appl
 
 1. When your flow is configured, open the options menu on the header bar and click **Start flow**.
 
-If you return to the {{site.data.keyword.appconserviceshort}} dashboard, you can see that your flow is running.  When an event happens in the first application, an action is triggered automatically by {{site.data.keyword.appconserviceshort}} in your second application. You can view the status of your flows on the {{site.data.keyword.appconserviceshort}} dashboard.  To view logs for your flows, open the hamburger menu ![Hamburger menu icon](/images/HamburgerMenuSm.jpg), expand **Manage**, then click **Logs**.
+If you return to the {{site.data.keyword.appconserviceshort}} dashboard, you can see that your flow is running.  When an event happens in the first application, an action is triggered automatically by {{site.data.keyword.appconserviceshort}} in your second application. You can view the status of your flows on the {{site.data.keyword.appconserviceshort}} dashboard.  To view logs for your flows, click **Logs** ![Logs icon](/images/LogsIcon.jpg) on the navigation bar.
 
 For more information, see [Creating an event-driven flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-event-driven-flow/).
 
