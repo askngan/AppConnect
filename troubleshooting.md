@@ -12,7 +12,7 @@ lastupdated: "2019-02-06"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:codeblock: .codeblock}
-{:tip: .tip} 
+{:tip: .tip}
 {:download: .download}
 
 
@@ -52,3 +52,5 @@ If you followed the troubleshooting advice and you're still experiencing a probl
 * If applicable, the browser type and version that you're using. ({{site.data.keyword.appconserviceshort}} supports the latest browser versions only.)
 * Any log entries that describe the problem.
 * The impact that the problem is having on your business.
+
+If you have an {{site.data.keyword.Bluemix}} Lite account, you can open support cases related to account and access issues or billing and usage issues. Your options are "access other self-service opportunities by using the {{site.data.keyword.Bluemix}} Assistant, docs, and community forums" as outlined on [Basic, Advanced, and Premium Support plans ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans)
