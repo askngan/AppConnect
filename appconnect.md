@@ -12,7 +12,7 @@ lastupdated: "2019-02-20"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:codeblock: .codeblock}
-{:tip: .tip} 
+{:tip: .tip}
 {:download: .download}
 
 
@@ -46,15 +46,15 @@ For example, you might create a flow so that whenever someone registers as a new
 
 ![A multi-node flow, with the source application and two target applications](images/multi_node_flow2.jpg)
 
-For more information, see [Creating an event-driven flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-event-driven-flow/).
+For more information, see [Creating an event-driven flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/tutorials/creating-event-driven-flow.html).
 
 A flow for an API contains a request, one or more target application actions, and a response. The request uses a model that you define to request the creation, replacement, or retrieval of data objects in your applications. When the request is submitted, each target application performs its action.  The flow then returns a response that either confirms that the actions were successful, or returns the data that was requested.
 
 ![A flow for an API that creates a product in Salesforce](images/APIFlow2.jpg)
 
-For more information, see [Creating flows for an API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-flows-api/).
+For more information, see [Creating flows for an API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/tutorials/creating-flows-api.html).
 
-As well as adding applications to your flows, you can also add nodes from the **Toolbox** to configure how you process data. For example, use the "If" node to add some conditional processing - performing different actions according to the data that you receive (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/adding-conditional-logic-flow/)). Or use the "**For each**" node when you want to perform an action for each record that is returned by a retrieval action (see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/)).
+As well as adding applications to your flows, you can also add nodes from the **Toolbox** to configure how you process data. For example, use the "If" node to add some conditional processing - performing different actions according to the data that you receive (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/toolbox/conditional-logic-flow.html)). Or use the "**For each**" node when you want to perform an action for each record that is returned by a retrieval action (see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/tutorials/retrieve-items-applications.html)).
 
 If you're an App Connect Enterprise or IBM Integration Bus developer, you can also create complex integration solutions by developing message flows in the Integration Toolkit and packaging them into BAR files.
 
@@ -69,14 +69,14 @@ When you create event-driven flows or flows for APIs, _applications_ are the clo
 
 ![Screen capture of one of the applications on the Applications page](images/Magento2.jpg)
 
-You don't have to connect to your applications on the Applications page; you can also connect in the flow editor as you add the applications to your flow. Many applications require just a user name and password, but some need more information. You can find out how to find this information in the [How-to guides for apps ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/how-to-guides-for-apps/).
+You don't have to connect to your applications on the Applications page; you can also connect in the flow editor as you add the applications to your flow. Many applications require just a user name and password, but some need more information. You can find out how to find this information in the [How-to guides for apps ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/how-to-guides-for-apps/index.html).
 
-If you're using {{site.data.keyword.appconserviceshort}} to run BAR files in the cloud, an _application_ is the container that holds your message flows, libraries, and other resources that are required by your solution. 
+If you're using {{site.data.keyword.appconserviceshort}} to run BAR files in the cloud, an _application_ is the container that holds message flows, libraries, and other resources that are required by your solution.
 
 ## Actions
 {: #actions}
 
-You can add several types of action to your flows. Common actions are create, retrieve, update, and delete, but some applications have specific actions. For example, the Watson Personality Insights application has an action that is called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconserviceshort}} by typing the action type in the search field on the Applications page:
+You can add several types of action to your flows. Common actions include create, retrieve, update, and delete, but some applications have specific actions. For example, the Watson Personality Insights application has an action that is called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconserviceshort}} by typing the action type in the search field on the Applications page:
 
 ![Screen capture that shows supported retrieval actions for applications](images/RetrieveApps2.jpg)
 
@@ -98,7 +98,7 @@ You're likely to see the following status codes in response to an update or crea
 -   200 A record was updated
 -   201 A record was created
 
-You can use these response codes later in your flow. Maybe you want to take different actions that depend on whether a record was updated or created. For an example of defining actions based on response codes, see the tutorial [Creating an event-driven flow that updates or creates a contact in Salesforce and updates Asana whenever you receive a form in Wufoo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/creating-event-driven-flow-updates-creates-contact-salesforce-updates-asana-whenever-receive-form-wufoo/).
+You can use these response codes later in your flow. Maybe you want to take different actions that depend on whether a record was updated or created. For an example of defining actions based on response codes, see the tutorial [Updating or creating a contact in Salesforce and updating Asana when a Wufoo form is submitted ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/tutorials/create-contact-salesforce-updates-asana-whenever-receive-form-wufoo.html).
 
 **Retrieve**
 
@@ -115,7 +115,7 @@ You can also decide what action to take based on the status code that you get in
 -   200 All records in the application match the condition
 -   206 The specified maximum number of records were retrieved, but more matching records exist in the application
 
-For more information, see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/using-ibm-app-connect-retrieve-items-applications/).
+For more information, see [Retrieving items from your applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/tutorials/retrieve-items-applications.html).
 
 ## Data mapping
 {: #transforms}
@@ -150,4 +150,4 @@ The **Insert a function** icon ![Apply a function icon](images/Functions.jpg) sh
 ## BAR files and integration servers
 {: #barfiles}
 
-A BAR file is a compressed file to which you add deployable resources in App Connect Enterprise or IBM Integration Bus.  When you develop an integration solution in App Connect Enterprise or Integration Bus, you package your message flows and all the resources that those message flows use in a BAR file.  You then deploy the BAR file to an integration server.  That server can be on premises or in {{site.data.keyword.appconserviceshort}}.  You can run your App Connect Enterprise or Integration Bus solutions in App Connect, without the need to acquire and maintain an IT infrastructure.  When you upload a BAR file to App Connect, an integration server is created to run the contents of the BAR file.  You can configure basic authentication and secure connectivity between your cloud-based and on-premises resources (see [Running your Integration Bus solutions in App Connect ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/integration/docs/app-connect/tutorials-for-ibm-app-connect/running-your-ibm-integration-bus-solutions-in-ibm-app-connect-enterprise-beta-plan)).  
+A BAR file is a compressed file to which you add deployable resources in App Connect Enterprise or IBM Integration Bus.  When you develop an integration solution in App Connect Enterprise or Integration Bus, you package your message flows and all the resources that those message flows use in a BAR file.  You then deploy the BAR file to an integration server.  That server can be on premises or in {{site.data.keyword.appconserviceshort}}.  You can run your App Connect Enterprise or Integration Bus solutions in App Connect, without the need to acquire and maintain an IT infrastructure.  When you upload a BAR file to App Connect, an integration server is created to run the contents of the BAR file.  You can configure basic authentication and secure connectivity between your cloud-based and on-premises resources (see [Running enterprise integration solutions in App Connect on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSTTDS_11.0.0/com.ibm.ace.cloud.doc/index.html)).  
