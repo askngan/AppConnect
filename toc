@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="AppConnect" category="integration" audience="service" console-page="/catalog/services/app-connect" product-page="https://ibm.com/cloud/app-connect" href="/docs/AppConnect?topic=AppConnect-getting-started#getting-started" path="AppConnect"}
-IBM App Connect
+App Connect
 
     {: .navgroup id="learn"}
     getting-started.md
