@@ -6,6 +6,15 @@ App Connect
 
     {: .navgroup id="learn"}
     getting-started.md
+    about.md
+    {: .navgroup-end}
+
+    {: .navgroup id="tutorial"}
+    api-flow.md
+    ace.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
     appconnect.md
     {: .navgroup-end}
 
