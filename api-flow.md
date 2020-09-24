@@ -2,10 +2,11 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-09-18"
+lastupdated: "2020-09-24"
+
+subcollection: AppConnect
 
 content-type: tutorial
-services:
 account-plan: lite
 completion-time: 10m
 
@@ -25,7 +26,6 @@ completion-time: 10m
 # Creating a flow for an API
 {: #tutorial-api-flow}
 {: toc-content-type="tutorial"}
-{: toc-services=""}
 {: toc-completion-time="10m"}
 
 If you want a developer to be able to create an application that uses the data in your cloud-based applications, you can provide an API. To create flows for an API, complete the following steps.

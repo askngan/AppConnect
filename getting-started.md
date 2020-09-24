@@ -2,10 +2,11 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-09-18"
+lastupdated: "2020-09-24"
+
+subcollection: AppConnect
 
 content-type: tutorial
-services:
 account-plan: lite
 completion-time: 10m
 
@@ -25,7 +26,6 @@ completion-time: 10m
 # Getting started with {{site.data.keyword.appconnect_notm}}
 {: #getting-started}
 {: toc-content-type="tutorial"}
-{: toc-services=""}
 {: toc-completion-time="10m"}
 
 In this getting started tutorial, we'll take you through how to use {{site.data.keyword.appconservicefull}} to create an event driven flow that will take you about 10 minutes to implement.
