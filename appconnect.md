@@ -21,10 +21,10 @@ subcollection: AppConnect
 # {{site.data.keyword.appconnect_notm}} concepts
 {: #concepts}
 
-{{site.data.keyword.appconservicefull}} helps you to connect your applications: from simple trigger-action interactions to complex integrations. You can use {{site.data.keyword.appconserviceshort}} to create event-driven flows or flows for APIs. Or you can upload and run the integration solutions that you create in IBM App Connect Enterprise or IBM Integration Bus, without the need to acquire and maintain an IT infrastructure. You can see and administer all your integrations - integration servers, event-driven flows, and flows for APIs - in one place on the {{site.data.keyword.appconserviceshort}} dashboard.
+{{site.data.keyword.appconservicefull}} helps you to connect your applications: from simple trigger-action interactions to complex integrations. You can use {{site.data.keyword.appconnect_notm}} to create event-driven flows or flows for APIs. Or you can upload and run the integration solutions that you create in IBM App Connect Enterprise or IBM Integration Bus, without the need to acquire and maintain an IT infrastructure. You can see and administer all your integrations - integration servers, event-driven flows, and flows for APIs - in one place on the {{site.data.keyword.appconnect_notm}} dashboard.
 {: shortdesc}
 
-The features and terminology of {{site.data.keyword.appconserviceshort}} are explained in more detail here:
+The features and terminology of {{site.data.keyword.appconnect_notm}} are explained in more detail here:
 
 -   [Flows](#flows)
 -   [Applications](#apps)
@@ -35,11 +35,11 @@ The features and terminology of {{site.data.keyword.appconserviceshort}} are exp
 ## Flows
 {: #flows}
 
-You can create two types of flow in {{site.data.keyword.appconserviceshort}}: an event-driven flow and a flow for an API.
+You can create two types of flow in {{site.data.keyword.appconnect_notm}}: an event-driven flow and a flow for an API.
 
 In an event-driven flow, you identify an event that can occur in your first application (the source application), and actions that can be performed in one or more target applications. The flow links the event to the actions so that, whenever the event occurs in the source application, the action is automatically triggered in the target applications. Each successfully completed action counts towards your monthly quota. When you create a flow, you add your applications, and choose actions. Then, you map the data that you want to transfer between your applications.
 
-For example, you might create a flow so that whenever someone registers as a new attendee with Eventbrite (the event), {{site.data.keyword.appconserviceshort}} automatically retrieves details of the attendee from Salesforce and creates a task in Asana (the actions).
+For example, you might create a flow so that whenever someone registers as a new attendee with Eventbrite (the event), {{site.data.keyword.appconnect_notm}} automatically retrieves details of the attendee from Salesforce and creates a task in Asana (the actions).
 
 ![A multi-node flow, with the source application and two target applications](images/multi_node_flow2.jpg)
 
@@ -62,18 +62,18 @@ Your flows and integration servers are represented by tiles on the App Connect d
 ## Applications
 {: #apps}
 
-When you create event-driven flows or flows for APIs, _applications_ are the cloud-based software applications that you're connecting.  You can see a list of the applications that you can connect with {{site.data.keyword.appconserviceshort}} on the **Applications** page of the catalog. Click an application to find out more about it, to see what events and actions are supported, and to connect to your own account. You can connect multiple accounts to each application and switch between them on the Applications page. After you connect to your account, you can also update or remove your account on the Applications page.
+When you create event-driven flows or flows for APIs, _applications_ are the cloud-based software applications that you're connecting.  You can see a list of the applications that you can connect with {{site.data.keyword.appconnect_notm}} on the **Applications** page of the catalog. Click an application to find out more about it, to see what events and actions are supported, and to connect to your own account. You can connect multiple accounts to each application and switch between them on the Applications page. After you connect to your account, you can also update or remove your account on the Applications page.
 
 ![Screen capture of one of the applications on the Applications page](images/Magento2.jpg)
 
 You don't have to connect to your applications on the Applications page; you can also connect in the flow editor as you add the applications to your flow. Many applications require just a user name and password, but some need more information. You can find out how to find this information in the [How-to guides for apps ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/how-to-guides-for-apps/index.html).
 
-If you're using {{site.data.keyword.appconserviceshort}} to run BAR files in the cloud, an _application_ is the container that holds message flows, libraries, and other resources that are required by your solution.
+If you're using {{site.data.keyword.appconnect_notm}} to run BAR files in the cloud, an _application_ is the container that holds message flows, libraries, and other resources that are required by your solution.
 
 ## Actions
 {: #actions}
 
-You can add several types of action to your flows. Common actions include create, retrieve, update, and delete, but some applications have specific actions. For example, the Watson Personality Insights application has an action that is called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconserviceshort}} by typing the action type in the search field on the Applications page:
+You can add several types of action to your flows. Common actions include create, retrieve, update, and delete, but some applications have specific actions. For example, the Watson Personality Insights application has an action that is called "Analyze personality". You can see a list of actions that are supported for applications in {{site.data.keyword.appconnect_notm}} by typing the action type in the search field on the Applications page:
 
 ![Screen capture that shows supported retrieval actions for applications](images/RetrieveApps2.jpg)
 
@@ -101,7 +101,7 @@ You can use these response codes later in your flow. Maybe you want to take diff
 
 The retrieval action gets information from an application so that you can use it in another application.
 
-When you add an action to your flow to retrieve objects, you can define one or more conditions to make sure that you’re retrieving the right items. Or, if you want to retrieve all items of a particular type, you can delete the condition. You can also define how many items you want to retrieve, and what happens if {{site.data.keyword.appconserviceshort}} finds more than or less than that number.
+When you add an action to your flow to retrieve objects, you can define one or more conditions to make sure that you’re retrieving the right items. Or, if you want to retrieve all items of a particular type, you can delete the condition. You can also define how many items you want to retrieve, and what happens if {{site.data.keyword.appconnect_notm}} finds more than or less than that number.
 
 You can handle your retrieved items in two ways:
 -   You can add a "For each" node after the retrieval action to perform an action for each of the items that were retrieved.
@@ -147,4 +147,4 @@ The **Insert a function** icon ![Apply a function icon](images/Functions.jpg) sh
 ## BAR files and integration servers
 {: #barfiles}
 
-A BAR file is a compressed file to which you add deployable resources in App Connect Enterprise or IBM Integration Bus.  When you develop an integration solution in App Connect Enterprise or Integration Bus, you package your message flows and all the resources that those message flows use in a BAR file.  You then deploy the BAR file to an integration server.  That server can be on premises or in {{site.data.keyword.appconserviceshort}}.  You can run your App Connect Enterprise or Integration Bus solutions in App Connect, without the need to acquire and maintain an IT infrastructure.  When you upload a BAR file to App Connect, an integration server is created to run the contents of the BAR file.  You can configure basic authentication and secure connectivity between your cloud-based and on-premises resources (see [Running enterprise integration solutions in App Connect on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSTTDS_11.0.0/com.ibm.ace.cloud.doc/index.html)).  
+A BAR file is a compressed file to which you add deployable resources in App Connect Enterprise or IBM Integration Bus.  When you develop an integration solution in App Connect Enterprise or Integration Bus, you package your message flows and all the resources that those message flows use in a BAR file.  You then deploy the BAR file to an integration server.  That server can be on premises or in {{site.data.keyword.appconnect_notm}}.  You can run your App Connect Enterprise or Integration Bus solutions in App Connect, without the need to acquire and maintain an IT infrastructure.  When you upload a BAR file to App Connect, an integration server is created to run the contents of the BAR file.  You can configure basic authentication and secure connectivity between your cloud-based and on-premises resources (see [Running enterprise integration solutions in App Connect on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSTTDS_11.0.0/com.ibm.ace.cloud.doc/index.html)).  

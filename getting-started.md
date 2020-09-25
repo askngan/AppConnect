@@ -2,7 +2,9 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-09-24"
+lastupdated: "2020-09-25"
+
+keywords: app connect, integration, application, getting started
 
 subcollection: AppConnect
 
@@ -42,8 +44,8 @@ Create an instance of the {{site.data.keyword.appconserviceshort}} service, to l
 {: #create-flow}
 {: step}
 
-1.  On the {{site.data.keyword.appconserviceshort}} dashboard, click **New** > **Event-driven flow**.
-    {{site.data.keyword.appconserviceshort}} saves your changes automatically as you go. If you navigate away from the flow at any stage, the flow is saved as a draft flow that you can complete at another time.
+1.  On the {{site.data.keyword.appconnect_notm}} dashboard, click **New** > **Event-driven flow**.
+    {{site.data.keyword.appconnect_notm}} saves your changes automatically as you go. If you navigate away from the flow at any stage, the flow is saved as a draft flow that you can complete at another time.
 1.  Enter a name for your flow.
 
 ## Select a trigger
@@ -79,7 +81,7 @@ When your flow is configured, open the options menu on the header bar and click 
 ## Next steps
 {: #gs-next-steps}
 
-If you return to the {{site.data.keyword.appconserviceshort}} dashboard, you can see that your flow is running.  When an event happens in the first application, an action is triggered automatically by {{site.data.keyword.appconserviceshort}} in your second application. You can view the status of your flows on the {{site.data.keyword.appconserviceshort}} dashboard. To view logs for your flows, click the **Logs** icon ![Logs icon](/images/LogsIcon.jpg).
+If you return to the {{site.data.keyword.appconnect_notm}} dashboard, you can see that your flow is running.  When an event happens in the first application, an action is triggered automatically by {{site.data.keyword.appconnect_notm}} in your second application. You can view the status of your flows on the {{site.data.keyword.appconnect_notm}} dashboard. To view logs for your flows, click the **Logs** icon ![Logs icon](/images/LogsIcon.jpg).
 
 - For more detailed instructions, how-to guides for specific applications, tutorials, and videos, see the full set of documentation at [IBM App Connect ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SS6KM6/index.html).
 - For more information about how to create an event-driven flow, see [Creating an event-driven flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSTTDS_11.0.0/com.ibm.appconnect.dev.doc/tutorials/creating-event-driven-flow.html?cp=SS6KM6).

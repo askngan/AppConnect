@@ -37,7 +37,7 @@ To run your App Connect Enterprise or Integration Bus solutions in App Connect, 
 {: #import-bar-file}
 {: step}
 
-1. On the {{site.data.keyword.appconserviceshort}} dashboard, click **New** > **Import a BAR file**.
+1. On the {{site.data.keyword.appconnect_notm}} dashboard, click **New** > **Import a BAR file**.
 1. Select the BAR file that you want to import, then click **Import**.
     If you see an authentication error, check that your BAR file is valid (see [What makes a BAR file valid in App Connect? ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSTTDS_11.0.0/com.ibm.ace.cloud.doc/developing-integration-for-app-connect-on-cloud.html#validbarforaceoc)).
     An integration server is created, and a tile is added to the dashboard to represent it. The status changes from "Preparing" to "Stopped" when the integration server is ready to be configured and started.

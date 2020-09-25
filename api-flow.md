@@ -35,7 +35,7 @@ If you want a developer to be able to create an application that uses the data i
 {: #create-flow-api}
 {: step}
 
-1. On the {{site.data.keyword.appconserviceshort}} dashboard, click **New** > **Flows for an API**.
+1. On the {{site.data.keyword.appconnect_notm}} dashboard, click **New** > **Flows for an API**.
 1. Enter a name for your API.
 
 ## Create a model
@@ -63,7 +63,7 @@ If you want a developer to be able to create an application that uses the data i
 
 When all your models and operations are defined, start the API by selecting **Start API** from the menu.
 
-The flows for your API are ready. On the {{site.data.keyword.appconserviceshort}} dashboard, flows for APIs are identified by the API icon. You can start and stop them in the same way as any other flow. You can open an API while it’s running, but you have to stop it before you can edit it.
+The flows for your API are ready. On the {{site.data.keyword.appconnect_notm}} dashboard, flows for APIs are identified by the API icon. You can start and stop them in the same way as any other flow. You can open an API while it’s running, but you have to stop it before you can edit it.
 
 ## Next steps
 {: #api-next-steps}
