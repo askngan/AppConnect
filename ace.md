@@ -27,6 +27,7 @@ completion-time: 30m
 {: #tutorial-ace}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="30m"}
+{: toc-services="AppConnect"}
 
 You can deploy integration solutions that are developed in App Connect Enterprise (ACE) or IBM Integration Bus (IIB) to the cloud, without the need to acquire and maintain an IT infrastructure. Import a BAR file that contains all the artifacts that make up your integration solution, then run the contents in an integration server in App Connect. (To create a BAR file, you must have App Connect Enterprise, or Integration Bus v10.0.0.4 or later, installed on premises.)
 {: shortdesc}
