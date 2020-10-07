@@ -123,7 +123,7 @@ Some fields are mandatory, and they're marked with an asterisk. For example, whe
 
 ![Screen capture that shows that the "Last name" field is mandatory](images/LastName.jpg)
 
-When you click in one of these fields, you see a couple of icons: **Insert a reference** ![Insert reference icon](images/InsertRef.jpg) and **Insert a function** ![Apply a function icon](images/Functions.jpg). If you click **Insert a reference**, you can see the available data that you can put in that field from preceding applications in the flow. The following example shows that you can choose fields from the Wufoo source application, or from a previous Salesforce action in the flow. You can also use the status code from the Salesforce update or create action.
+When you click in one of these fields, you see a couple of icons: **Insert a mapping** ![Insert a mapping icon](images/InsertRef.jpg) and **Insert a function** ![Insert a function icon](images/Functions.jpg). If you click **Insert a mapping**, you can see the available data that you can put in that field from preceding applications in the flow. The following example shows that you can choose fields from the Wufoo source application, or from a previous Salesforce action in the flow. You can also use the status code from the Salesforce update or create action.
 
 ![Screen capture that shows available inputs for a data mapping](images/Inputs.jpg)
 
@@ -141,7 +141,7 @@ Here's another example of mapping response codes in a different way. This time, 
 
 ![Screen capture that shows how response codes are used in an "If" node](images/IfSC.jpg)
 
-The **Insert a function** icon ![Apply a function icon](images/Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to uppercase or lowercase text, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata (a lightweight query and transformation language). For more information, see [http://jsonata.org ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://jsonata.org).
+The **Insert a function** icon ![Insert a function icon](images/Functions.jpg) shows you a list of transformation functions that you can use to customize the data that you're passing through your flow. These functions can be as simple as converting a particular field to uppercase or lowercase text, or slightly more complex, such as finding and replacing specific patterns in the data. They can also be as powerful as forming regular expressions. You can either select the function that you want from the list, or you can type it in yourself. The syntax of the functions is JSONata (a lightweight query and transformation language). For more information, see [http://jsonata.org ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://jsonata.org).
 
 
 ## BAR files and integration servers
