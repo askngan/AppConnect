@@ -6,7 +6,6 @@ App Connect
 
     {: .navgroup id="learn"}
     getting-started.md
-    about.md
     {: .navgroup-end}
 
     {: .navgroup id="tutorial"}
