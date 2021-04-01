@@ -1,4 +1,4 @@
-IBM Log Analysis---
+---
 
 copyright:
   years: 2017, 2021
