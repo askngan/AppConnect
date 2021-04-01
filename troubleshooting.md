@@ -2,7 +2,7 @@ IBM Log Analysis---
 
 copyright:
   years: 2017, 2021
-lastupdated: "2020-09-24"
+lastupdated: "2021-04-01"
 
 subcollection: AppConnect
 
