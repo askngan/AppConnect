@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-09-24"
+  years: 2017, 2020, 2021
+lastupdated: "2021-04-08"
 
 subcollection: AppConnect
 
@@ -53,7 +53,7 @@ If you want a developer to be able to create an application that uses the data i
 
 1. For each operation, click **Implement flow** to create a flow that defines how each operation works.
 1. Add one or more target applications to the flow, between the request and response.
-    If you want your flow to do different things for different conditions, you can also add some conditional logic (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSTTDS_11.0.0/com.ibm.appconnect.dev.doc/toolbox/conditional-logic-flow.html?cp=SS6KM6)).
+    If you want your flow to do different things for different conditions, you can also add some conditional logic (see [Adding conditional logic to a flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/docs/en/app-connect/cloud?topic=utilities-if-conditional)).
 1. Click the **Response** in the flow to define the response that is returned when the operation is completed. Map the available fields from your target application.
 1. Click **Done** to return to your model.
 
@@ -68,5 +68,5 @@ The flows for your API are ready. On the {{site.data.keyword.appconnect_notm}} d
 ## Next steps
 {: #api-next-steps}
 
-- To follow a tutorial about creating a flow for an API, see [Creating flows for an API  ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSTTDS_11.0.0/com.ibm.appconnect.dev.doc/tutorials/creating-flows-api.html?cp=SS6KM6).
-- To find out how to test your API, see [Testing an API flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSTTDS_11.0.0/com.ibm.appconnect.dev.doc/testing-flows-running.html#testapi).
+- To follow a tutorial about creating a flow for an API, see [Creating flows for an API  ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/docs/en/app-connect/cloud?topic=connect-introduction-creating-flows-api-part-1).
+- To find out how to test your API, see [Testing an API flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/docs/en/app-connect/cloud?topic=flows-testing-running-flow#testapi).
