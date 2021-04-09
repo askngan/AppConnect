@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020, 2021
-lastupdated: "2021-04-08"
+lastupdated: "2021-04-09"
 
 keywords: app connect, integration, application, getting started
 
@@ -83,6 +83,6 @@ When your flow is configured, open the options menu on the header bar and click 
 
 If you return to the {{site.data.keyword.appconnect_notm}} dashboard, you can see that your flow is running.  When an event happens in the first application, an action is triggered automatically by {{site.data.keyword.appconnect_notm}} in your second application. You can view the status of your flows on the {{site.data.keyword.appconnect_notm}} dashboard. To view logs for your flows, click the **Logs** icon ![Logs icon](/images/LogsIcon.jpg).
 
-- For more detailed instructions, how-to guides for specific applications, tutorials, and videos, see the full set of documentation at [IBM App Connect ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SS6KM6/index.html).
+- For more detailed instructions, how-to guides for specific applications, tutorials, and videos, see the full set of documentation at [IBM App Connect ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/docs/en/app-connect/cloud).
 - For more information about how to create an event-driven flow, see [Creating an event-driven flow ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/docs/en/app-connect/cloud?topic=connect-creating-event-driven-flow).
 - To follow a tutorial for a typical event-driven flow, see [Creating a ServiceNow incident and sending an email when a Wufoo form is submitted ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/docs/en/app-connect/cloud?topic=tac-creating-servicenow-incident-sending-email-when-wufoo-form-is-submitted).
