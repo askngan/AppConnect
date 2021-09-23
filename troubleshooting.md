@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-09-23"
 
 subcollection: AppConnect
 
@@ -45,14 +45,19 @@ To troubleshoot problems with {{site.data.keyword.appconservicefull}} flows and 
 If you followed the troubleshooting advice and you're still experiencing a problem, you can get help from the   {{site.data.keyword.appconnect_notm}} team.  From the {{site.data.keyword.appconnect_notm}} menu, click **Contact**, then **Get support**.  Sign in with your IBM ID, click **Create a case**, and click the **App Connect** tile.  Then provide as much of the following information as you can. (You can also click **Support** in the {{site.data.keyword.Bluemix}} console.)
 
 * The {{site.data.keyword.Bluemix}} region where your instance of {{site.data.keyword.appconnect_notm}} is provisioned. (For example, Dallas or London.)
-* The Instance ID of the {{site.data.keyword.appconnect_notm}} service that you're using. (You can find this ID by looking at the account information under the {{site.data.keyword.appconnect_notm}} Instance Identifier.)
+* The Instance ID of the {{site.data.keyword.appconnect_notm}} service that you're using. You can find this ID as part of the {{site.data.keyword.appconnect_notm}} dashboard URL or by looking at the account information under the {{site.data.keyword.appconnect_notm}} Instance Identifier.
+![Screen capture that shows the instance ID in the URL](/images/instanceIDsm.jpg)
 * The URL that you use to access your {{site.data.keyword.appconnect_notm}} instance.
 * The problem that you're experiencing. (For example, whether the problem is with a specific application or function.)
-* The batch ID if the problem is related to batch processing. (If errors occur in a batch process, and you defined an ID for each record in the batch, your defined ID is in the "batch-record-id_str" column of the log. For more information, see [How to use batch processing in {{site.data.keyword.appconnect_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/toolbox/batch-processing.html).)
 * The date and time (including time zone) when the problem first occurred, and the length of time that the flow was running before the problem occurred.
 * Whether the problem is still occurring, and if you can replicate it.
 * If applicable, the browser type and version that you're using. ({{site.data.keyword.appconnect_notm}} supports the latest browser versions only.)
 * Any log entries that describe the problem.
 * The impact that the problem is having on your business.
+* If you're requesting support for batch processing in a flow that was created in the App Connect Designer, provide the batch ID. (If errors occur in a batch process, and you defined an ID for each record in the batch, your defined ID is in the "batch-record-id_str" column of the log. For more information, see [How to use batch processing in {{site.data.keyword.appconnect_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/toolbox/batch-processing.html).)
+
+If you're requesting support for an integration that is running on {{site.data.keyword.appconservicefull}} but was developed in the App Connect Enterprise Toolkit, provide the following information.
+* The **Route short name** of the integration server that you're using. You can find this name on the Dashboard integration server details page. 
+* Service trace for the time when the issue occurred. For more information, see [Tracing integration servers ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/docs/en/app-connect/cloud?topic=monitoring-troubleshooting#traceis). 
 
 If you have an {{site.data.keyword.Bluemix}} Lite account, you can open support cases related to account and access issues or billing and usage issues. Your options are "access other self-service opportunities by using the {{site.data.keyword.Bluemix}} Assistant, docs, and community forums" as outlined on [Basic, Advanced, and Premium Support plans ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans)
