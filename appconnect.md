@@ -77,13 +77,13 @@ You can add several types of action to your flows. Common actions include create
 
 ![Screen capture that shows supported retrieval actions for applications](images/RetrieveApps2.jpg)
 
-**Create**
+### Create
 
 As the name suggests, the create action creates an object or record in an application. For example, if someone signs up to your event or submits a completed form, you might want to create a record for that person in your CRM or marketing application. Or if someone opens a ticket in your help desk application, you might want to create an email or instant message to ensure that someone deals with it straight away. If the object that you want to create might exist, you can use an *update or create* action instead.
 
 For some applications, you might have to provide some extra information when you add a create action to a flow so that your flow knows where to create the object. For example, if you're using a project management application like Asana or Trello, you need to specify a project or board when you create a task or a card.
 
-**Update or create**
+### Update or create
 
 The update or create action changes an existing record in your target application if it exists, but creates the record if it doesn’t exist. It is also known as an upsert (update or insert) action.
 
@@ -97,7 +97,7 @@ You're likely to see the following status codes in response to an update or crea
 
 You can use these response codes later in your flow. Maybe you want to take different actions that depend on whether a record was updated or created. For an example of defining actions based on response codes, see the tutorial [Updating or creating a contact in Salesforce and updating Asana when a Wufoo form is submitted ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SS6KM6/com.ibm.appconnect.dev.doc/tutorials/create-contact-salesforce-updates-asana-whenever-receive-form-wufoo.html).
 
-**Retrieve**
+### Retrieve
 
 The retrieval action gets information from an application so that you can use it in another application.
 
