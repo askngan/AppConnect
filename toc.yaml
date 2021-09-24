@@ -1,0 +1,38 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+
+toc:
+  properties:
+    subcollection: AppConnect
+    version: 2
+    category: integration
+    audience: service
+    href: /docs/AppConnect
+    console-page: /catalog/services/app-connect
+    product-page: https://ibm.com/cloud/app-connect
+    path: AppConnect
+    label: App Connect
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+
+  - navgroup:
+      id: tutorial
+      topics:
+      - api-flow.md
+      - ace.md
+
+  - navgroup:
+      id: howto
+      topics:
+      - appconnect.md
+
+  - navgroup:
+      id: help
+      topics:
+      - troubleshooting.md
