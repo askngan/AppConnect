@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020, 2021
-lastupdated: "2021-04-09"
+  years: 2017, 2021
+lastupdated: "2021-11-12"
 
 keywords: app connect, integration, application, getting started
 
