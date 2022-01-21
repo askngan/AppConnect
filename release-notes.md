@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-11-25"
+  years: 2019, 2022
+lastupdated: "2022-01-21"
 
 keywords: app connect release notes
 
@@ -20,6 +20,22 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.appconservicefull}}.
 {: shortdesc}
+
+## 18 January 2022
+{: #subcollection-jan1822}
+{: release-note}
+
+Bug fixes, Security fixes and currency updates to dependent components
+:   Applied a fix to the account creation issue in the Quickbooks connector. Updates to the Slack, Domino, Gmail, MS Teams and Email connectors focussing on improved user experience.
+
+Applications deprecated
+:   The following applications are deprecated in IBM App Connect on IBM Cloud®, and are no longer available in the App Connect catalog:
+* Cisco Webex Teams
+* Freshdesk
+* Intacct
+* Netsuite Finance
+* Salesforce Service Cloud
+* Zuora
 
 ## 19 November 2020
 {: #subcollection-nov1920}
