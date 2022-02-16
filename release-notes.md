@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-01-21"
+lastupdated: "2022-02-16"
 
 keywords: app connect release notes
 
@@ -21,11 +21,19 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.appconservicefull}}.
 {: shortdesc}
 
+## 15 February 2022
+{: #subcollection-feb1522}
+{: release-note}
+
+Bug fixes, security fixes and currency updates to dependent components, including UI components
+:   Updates to the IBM Cloudant, Salesforce, SFTP, and Google Sheets connectors to address bugs and support issues.
+
+
 ## 18 January 2022
 {: #subcollection-jan1822}
 {: release-note}
 
-Bug fixes, Security fixes and currency updates to dependent components
+Bug fixes, security fixes and currency updates to dependent components
 :   Applied a fix to the account creation issue in the Quickbooks connector. Updates to the Slack, Domino, Gmail, MS Teams and Email connectors focussing on improved user experience.
 
 Applications deprecated
