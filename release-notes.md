@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-02-16"
+lastupdated: "2022-02-24"
 
 keywords: app connect release notes
 
@@ -28,6 +28,11 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 Bug fixes, security fixes and currency updates to dependent components, including UI components
 :   Updates to the IBM Cloudant, Salesforce, SFTP, and Google Sheets connectors to address bugs and support issues.
 
+Applications deprecated
+:   The following applications are deprecated in IBM App Connect on IBM Cloud®, and are no longer available in the App Connect catalog:
+* HubSpot CRM
+* Salesforce Pardot
+* Zoho CRM
 
 ## 18 January 2022
 {: #subcollection-jan1822}
