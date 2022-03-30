@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-02-24"
+lastupdated: "2022-03-30"
 
 keywords: app connect release notes
 
@@ -20,6 +20,16 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.appconservicefull}}.
 {: shortdesc}
+
+## 29 March 2022
+{: #subcollection-Mar2922}
+{: release-note}
+
+Update to the SurveyMonkey application
+:   Basic OAuth support has been enabled in SurveyMonkey. For more information, see [How to use IBM App Connect with SurveyMonkey](https://www.ibm.com/docs/en/app-connect/cloud?topic=apps-surveymonkey)
+
+Update to the Workday applications
+:   App Connect now supports Workday version 37.2.
 
 ## 15 February 2022
 {: #subcollection-feb1522}
