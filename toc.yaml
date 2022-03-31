@@ -5,6 +5,7 @@
 toc:
   properties:
     subcollection: AppConnect
+    service-name: appconnect
     version: 3
     category: integration
     audience: service
