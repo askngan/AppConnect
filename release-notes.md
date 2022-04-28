@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-03-31"
+lastupdated: "2022-04-28"
 
 keywords: app connect release notes
 
@@ -21,8 +21,29 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.appconservicefull}}.
 {: shortdesc}
 
+## 19 April 2022
+{: #subcollection-apr1922}
+{: release-note}
+
+Bug fixes, security fixes and currency updates to dependent components, including UI components
+:   Salesforce fixes for duplicate subscriptions. Additional file support in Box and larger file support in IBM Cloud Object Storage S3.
+
+Applications deprecated
+:   The following applications are deprecated in IBM App Connect on IBM Cloud®, and are no longer available in the App Connect catalog:
+* Big Commerce
+* HubSpot Marketing
+* Netsuite CRM
+* Netsuite ERP
+* Oracle Sales Cloud
+* QuickBooks online
+* Shopify
+* Twillio
+* Zendesk
+
+
+
 ## 29 March 2022
-{: #subcollection-Mar2922}
+{: #subcollection-mar2922}
 {: release-note}
 
 Update to the SurveyMonkey application
