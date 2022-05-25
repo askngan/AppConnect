@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-04-28"
+lastupdated: "2022-05-25"
 
 keywords: app connect release notes
 
@@ -20,6 +20,16 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.appconservicefull}}.
 {: shortdesc}
+
+## 13 May 2022
+{: #subcollection-may1322}
+{: release-note}
+
+Applications deprecated
+:   IBM Watson Tone Analyzer. Only existing customers will be able to access the product. The service will no longer be available in IBM App Connect on IBM Cloud® as of 24 February 2023.
+
+Application enhancements
+:   App Connect now supports connecting to IBM Sterling OMS by using the IBM MQ Server. IBM MQ actions and events are labelled 'Async'.
 
 ## 19 April 2022
 {: #subcollection-apr1922}
