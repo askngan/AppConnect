@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-05-25"
+lastupdated: "2022-06-17"
 
 keywords: app connect release notes
 
@@ -20,6 +20,13 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.appconservicefull}}.
 {: shortdesc}
+
+## 14 June 2022
+{: #subcollection-jun1422}
+{: release-note}
+
+Bug fixes, security fixes and one application enhancement
+:   IBM Engineering Workflow Management now supports form based and HTTP authentication.
 
 ## 13 May 2022
 {: #subcollection-may1322}
