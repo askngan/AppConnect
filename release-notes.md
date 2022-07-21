@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-06-17"
+lastupdated: "2022-07-21"
 
 keywords: app connect release notes
 
