@@ -21,6 +21,21 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.appconservicefull}}.
 {: shortdesc}
 
+## 14 July 2022
+{: #subcollection-jul1422}
+{: release-note}
+
+Applications deprecated
+:   The following applications are deprecated in IBM App Connect on IBM Cloud®, and are no longer available in the App Connect catalog:
+* SAP Concur
+* Stripe
+* Sugar CRM
+* Twitter
+
+Application enhancements
+:   App Connect now supports OAuth 2.0 authentication to connect to APIs that you import from OpenAPI documents.
+
+
 ## 14 June 2022
 {: #subcollection-jun1422}
 {: release-note}
