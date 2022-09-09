@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-07-21"
+lastupdated: "2022-09-09"
 
 keywords: app connect release notes
 
@@ -67,7 +67,7 @@ Applications deprecated
 * Netsuite CRM
 * Netsuite ERP
 * Oracle Sales Cloud
-* QuickBooks online
+* QuickBooks Online
 * Shopify
 * Twillio
 * Zendesk
@@ -124,8 +124,8 @@ Applications deprecated
 * Salesforce Libraries
 * Infusionsoft CRM
 * InfusionSoft Marketing
-* Oracle service cloud
-* NetSuite people (NetSuite HCM)
+* Oracle Service Cloud
+* NetSuite People (NetSuite HCM)
 
 ## 9 March 2020
 {: #subcollection-mar0920}
